@@ -1,0 +1,4 @@
+B:\SteamLibrary\steamapps\common\RimWorld\Mods\Orion\Assemblies\ToolBagUda_TransporterSystem.dll
+B:\SteamLibrary\steamapps\common\RimWorld\Mods\Orion\Source\ToolBagUda\ToolBagUda_TransporterSystem\obj\Debug\ToolBagUda_TransporterSystem.csprojAssemblyReference.cache
+B:\SteamLibrary\steamapps\common\RimWorld\Mods\Orion\Source\ToolBagUda\ToolBagUda_TransporterSystem\obj\Debug\ToolBagUda_TransporterSystem.csproj.CoreCompileInputs.cache
+B:\SteamLibrary\steamapps\common\RimWorld\Mods\Orion\Source\ToolBagUda\ToolBagUda_TransporterSystem\obj\Debug\ToolBagUda_TransporterSystem.dll

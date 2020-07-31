@@ -1,0 +1,57 @@
+ */
+   About/
+     About.xml
+     Preview.png-
+   Assemblies/-
+     *.dll+
+   Defs/-
+     *Defs/+
+       *.xml+
+   Languages/-
+     */*
+       DefInjected/-
+         *Defs/+
+           *.xml+
+       Keyed/-
+         *.xml+
+       Strings/-
+         NameBanks/
+           *.txt+
+       FriendlyName.txt-
+       LangIcon.png
+       LanguageInfo.xml
+   Patches/-
+       *.xml+
+   Sounds/-
+     */*#
+       *.wav+
+   Source/-
+     */*#
+       bin/
+         Debug/
+           *.**
+       obj/
+         Debug/
+           *.**
+       Properties/-
+         AssemblyInfo.cs
+       Source-DLLs/-
+         Assembly-CSharp.dll
+         UnityEngine.dll
+       *.csproj
+       *.OpenCover.Settings
+       *.sln
+       */*#
+         *.cs+
+   Textures/-
+     */*#
+       *.psd*
+       *.psd.meta*
+       *.png*
+ Anything with a / at the end is a folder;
+ Anything with a . in it is a file;
+ The * in *.* and */ stands for any arbitrary string;
+ The * after a file/folder stands for an occurence of >= 0;
+ The + after a file/folder stands for an occurrence of > 0;
+ The - after a file/folder stands for an occurrence of <= 1;
+ The # after a folder stands for a folder depth of >= 0.

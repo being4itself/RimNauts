@@ -1,0 +1,4 @@
+B:\SteamLibrary\steamapps\common\RimWorld\Mods\Orion\Assemblies\ToolBagUda_PawnSpawner.dll
+B:\SteamLibrary\steamapps\common\RimWorld\Mods\Orion\Source\ToolBagUda\UnitSpawner\obj\Debug\ToolBagUda_PawnSpawner.csprojAssemblyReference.cache
+B:\SteamLibrary\steamapps\common\RimWorld\Mods\Orion\Source\ToolBagUda\UnitSpawner\obj\Debug\ToolBagUda_PawnSpawner.csproj.CoreCompileInputs.cache
+B:\SteamLibrary\steamapps\common\RimWorld\Mods\Orion\Source\ToolBagUda\UnitSpawner\obj\Debug\ToolBagUda_PawnSpawner.dll

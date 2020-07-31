@@ -1,0 +1,5 @@
+B:\SteamLibrary\steamapps\common\RimWorld\Mods\Orion\Assemblies\ToolBagUda.dll
+B:\SteamLibrary\steamapps\common\RimWorld\Mods\Orion\Source\ToolBagUda\ToolBagUda\obj\Debug\ToolBagUda.csprojAssemblyReference.cache
+B:\SteamLibrary\steamapps\common\RimWorld\Mods\Orion\Source\ToolBagUda\ToolBagUda\obj\Debug\ToolBagUda.csproj.CoreCompileInputs.cache
+B:\SteamLibrary\steamapps\common\RimWorld\Mods\Orion\Source\ToolBagUda\ToolBagUda\obj\Debug\ToolBagUda.dll
+B:\SteamLibrary\steamapps\common\RimWorld\Mods\BorgFork\Assemblies\ToolBagUda.dll
