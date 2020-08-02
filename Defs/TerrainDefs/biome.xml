@@ -5,15 +5,6 @@
 		<label>barrenMoon</label>
 		<description>Moon Biome</description>
 
-		<workerClass>BiomesKit.UniversalBiomeWorker</workerClass>
-		<modExtensions>
-      			<li Class="BiomesKit.BiomesKitControls">
-					<allowOnLand>True</allowOnLand>
-					<allowOnWater>True</allowOnWater>
-					<frequency>100</frequency>
-      			</li>
-		</modExtensions>
-
 		<canAutoChoose>true</canAutoChoose>
 		<allowRoads>false</allowRoads>
 		<allowRivers>false</allowRivers>
