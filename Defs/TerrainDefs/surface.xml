@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- (base) void -->
+	<TerrainDef Name="lunarSurface" ParentName="NaturalTerrainBase">
+		<defName>lunarSurface</defName>
+		<label>lunarSurface</label>
+		<description>Lunar Surface.</description>
+		<texturePath>Terrain/Surfaces/lunarSurface</texturePath>
+		<edgeType>FadeRough</edgeType>
+		<renderPrecedence>350</renderPrecedence>
+		<affordances>
+			<li>Light</li>
+			<li>Medium</li>
+			<li>Heavy</li>
+			<li>GrowSoil</li>
+			<li>Diggable</li>
+		</affordances>
+		<takeFootprints>true</takeFootprints>
+		<statBases>
+			<Beauty>0</Beauty>
+		</statBases>
+		<fertility>0</fertility>
+	</TerrainDef>
+
+</Defs>
