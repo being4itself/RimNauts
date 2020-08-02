@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<BiomeDef>
+		<defName>Moon</defName>
+		<label>barrenMoon</label>
+		<description>Moon Biome</description>
+
+		<workerClass>BiomesKit.UniversalBiomeWorker</workerClass>
+		<modExtensions>
+      			<li Class="BiomesKit.BiomesKitControls">
+					<allowOnLand>True</allowOnLand>
+					<allowOnWater>True</allowOnWater>
+					<frequency>100</frequency>
+      			</li>
+		</modExtensions>
+
+		<canAutoChoose>true</canAutoChoose>
+		<allowRoads>false</allowRoads>
+		<allowRivers>false</allowRivers>
+		<animalDensity>0</animalDensity>
+		<plantDensity>0</plantDensity>
+		<settlementSelectionWeight>0.01</settlementSelectionWeight>
+		<movementDifficulty>1.5</movementDifficulty>
+		<texture>World/Biomes/lunarSurface</texture>
+		<forageability>0</forageability>
+
+		<baseWeatherCommonalities>
+			<Clear>18</Clear>
+			<Fog>0</Fog>
+			<Rain>0</Rain>
+			<DryThunderstorm>0</DryThunderstorm>
+			<RainyThunderstorm>0</RainyThunderstorm>
+			<FoggyRain>0</FoggyRain>
+			<SnowGentle>0</SnowGentle>
+			<SnowHard>0</SnowHard>
+		</baseWeatherCommonalities>
+
+		<terrainsByFertility>
+			<li>
+				<terrain>lunarSurface</terrain>
+				<min>-999</min>
+				<max>999</max>
+			</li>
+		</terrainsByFertility>
+
+		<terrainPatchMakers>
+			<li>
+				<perlinFrequency>0.035</perlinFrequency>
+				<thresholds>
+					<li>
+						<terrain>lunarSurface</terrain>
+						<min>0</min>
+						<max>999</max>
+					</li>
+				</thresholds>
+			</li>
+		</terrainPatchMakers>
+
+		<diseaseMtbDays>40</diseaseMtbDays>
+		<diseases>
+		  <li>
+			<diseaseInc>Disease_Malaria</diseaseInc>
+			<commonality>160</commonality>
+		  </li>
+		  <li>
+			<diseaseInc>Disease_SleepingSickness</diseaseInc>
+			<commonality>140</commonality>
+		  </li>
+		  <li>
+			<diseaseInc>Disease_Flu</diseaseInc>
+			<commonality>100</commonality>
+		  </li>
+		  <li>
+			<diseaseInc>Disease_Plague</diseaseInc>
+			<commonality>100</commonality>
+		  </li>
+		  <li>
+			<diseaseInc>Disease_GutWorms</diseaseInc>
+			<commonality>80</commonality>
+		  </li>
+		  <li>
+			<diseaseInc>Disease_MuscleParasites</diseaseInc>
+			<commonality>80</commonality>
+		  </li>
+		  <li>
+			<diseaseInc>Disease_FibrousMechanites</diseaseInc>
+			<commonality>30</commonality>
+		  </li>
+		  <li>
+			<diseaseInc>Disease_SensoryMechanites</diseaseInc>
+			<commonality>30</commonality>
+		  </li>
+		  <li>
+			<diseaseInc>Disease_AnimalFlu</diseaseInc>
+			<commonality>100</commonality>
+		  </li>
+		  <li>
+			<diseaseInc>Disease_AnimalPlague</diseaseInc>
+			<commonality>100</commonality>
+		  </li>
+		</diseases>
+	</BiomeDef>
+</Defs>
