@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<BiomeDef>
-		<defName>Moon</defName>
+		<defName>RockMoonBiome</defName>
 		<label>barrenMoon</label>
-		<description>Moon Biome</description>
-
+		<description>Rocky Moon Biome</description>
+		<workerClass>ThatsAMoon.BiomeWorker_Satellite</workerClass>
 		<canAutoChoose>true</canAutoChoose>
 		<allowRoads>false</allowRoads>
 		<allowRivers>false</allowRivers>
@@ -90,5 +90,9 @@
 			<commonality>100</commonality>
 		  </li>
 		</diseases>
+		<wildAnimals>
+      <Hare>0.002</Hare>
+
+    </wildAnimals>
 	</BiomeDef>
 </Defs>

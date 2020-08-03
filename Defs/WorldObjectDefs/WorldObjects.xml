@@ -7,7 +7,7 @@
     <description>One of what could be many, many moons orbiting this rimworld.</description>
     <worldObjectClass>ThatsAMoon.WorldObject_SmallMoon</worldObjectClass>
     <texture>UI/smallmoon</texture>
-    <useDynamicDrawer>true</useDynamicDrawer>
+    <useDynamicDrawer>false</useDynamicDrawer>
     <expandingIcon>true</expandingIcon>
     <expandingIconTexture>UI/smallmoon</expandingIconTexture>
     <expandingIconPriority>6</expandingIconPriority>
@@ -19,7 +19,7 @@
     <description>An extremely rare celestial occurrance, a Gas Dwarf orbits this world just far enough not to be ripped to shreds by tidal forces...somehow...</description>
     <worldObjectClass>ThatsAMoon.WorldObject_GassyMoon</worldObjectClass>
     <texture>UI/gassymoon</texture>
-    <useDynamicDrawer>true</useDynamicDrawer>
+    <useDynamicDrawer>false</useDynamicDrawer>
     <expandingIcon>true</expandingIcon>
     <expandingIconTexture>UI/gassymoon</expandingIconTexture>
     <expandingIconPriority>6</expandingIconPriority>
@@ -31,7 +31,7 @@
     <description>A ruin of a miniature moon, heavily bombarded by debris until its orbit was irrevocably altered, causing it to be pulled apart by tidal forces.</description>
     <worldObjectClass>ThatsAMoon.WorldObject_DestroyedMoon</worldObjectClass>
     <texture>UI/destroyedmoon</texture>
-    <useDynamicDrawer>true</useDynamicDrawer>
+    <useDynamicDrawer>false</useDynamicDrawer>
     <expandingIcon>true</expandingIcon>
     <expandingIconTexture>UI/destroyedmoon</expandingIconTexture>
     <expandingIconPriority>6</expandingIconPriority>
@@ -43,7 +43,7 @@
     <description>An asteroid, one of what could be many, many tiny satellites orbiting this rimworld.</description>
     <worldObjectClass>ThatsAMoon.WorldObject_Asteroid</worldObjectClass>
     <texture>UI/asteroid</texture>
-    <useDynamicDrawer>true</useDynamicDrawer>
+    <useDynamicDrawer>false</useDynamicDrawer>
     <expandingIcon>true</expandingIcon>
     <expandingIconTexture>UI/asteroid</expandingIconTexture>
     <expandingIconPriority>6</expandingIconPriority>
@@ -57,7 +57,7 @@
     <description>One of what could be many, many moons orbiting this rimworld.</description>
     <worldObjectClass>ThatsAMoon.WorldObjectChild_Satellite</worldObjectClass>
     <texture>UI/smallmoon</texture>
-    <useDynamicDrawer>true</useDynamicDrawer>
+    <useDynamicDrawer>false</useDynamicDrawer>
     <expandingIcon>true</expandingIcon>
     <expandingIconTexture>UI/smallmoon</expandingIconTexture>
     <expandingIconPriority>6</expandingIconPriority>
@@ -69,7 +69,7 @@
     <description>An extremely rare celestial occurrance, a Gas Dwarf orbits this world just far enough not to be ripped to shreds by tidal forces...somehow...</description>
     <worldObjectClass>ThatsAMoon.WorldObjectChild_Satellite</worldObjectClass>
     <texture>UI/gassymoon</texture>
-    <useDynamicDrawer>true</useDynamicDrawer>
+    <useDynamicDrawer>false</useDynamicDrawer>
     <expandingIcon>true</expandingIcon>
     <expandingIconTexture>UI/gassymoon</expandingIconTexture>
     <expandingIconPriority>6</expandingIconPriority>
@@ -81,7 +81,7 @@
     <description>A ruin of a miniature moon, heavily bombarded by debris until its orbit was irrevocably altered, causing it to be pulled apart by tidal forces.</description>
     <worldObjectClass>ThatsAMoon.WorldObjectChild_Satellite</worldObjectClass>
     <texture>UI/destroyedmoon</texture>
-    <useDynamicDrawer>true</useDynamicDrawer>
+    <useDynamicDrawer>false</useDynamicDrawer>
     <expandingIcon>true</expandingIcon>
     <expandingIconTexture>UI/destroyedmoon</expandingIconTexture>
     <expandingIconPriority>6</expandingIconPriority>
@@ -93,7 +93,7 @@
     <description>An asteroid, one of what could be many, many tiny satellites orbiting this rimworld.</description>
     <worldObjectClass>ThatsAMoon.WorldObjectChild_Satellite</worldObjectClass>
     <texture>UI/asteroid</texture>
-    <useDynamicDrawer>true</useDynamicDrawer>
+    <useDynamicDrawer>false</useDynamicDrawer>
     <expandingIcon>true</expandingIcon>
     <expandingIconTexture>UI/asteroid</expandingIconTexture>
     <expandingIconPriority>6</expandingIconPriority>
