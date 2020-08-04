@@ -1,56 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   
-  <WorldObjectDef>
-    <defName>SmallMoon</defName>
-    <label>small moon</label>
-    <description>One of what could be many, many moons orbiting this rimworld.</description>
-    <worldObjectClass>ThatsAMoon.WorldObject_SmallMoon</worldObjectClass>
-    <texture>UI/smallmoon</texture>
-    <useDynamicDrawer>false</useDynamicDrawer>
-    <expandingIcon>true</expandingIcon>
-    <expandingIconTexture>UI/smallmoon</expandingIconTexture>
-    <expandingIconPriority>6</expandingIconPriority>
-  </WorldObjectDef>
-  
-  <WorldObjectDef>
-    <defName>GassyMoon</defName>
-    <label>gas dwarf</label>
-    <description>An extremely rare celestial occurrance, a Gas Dwarf orbits this world just far enough not to be ripped to shreds by tidal forces...somehow...</description>
-    <worldObjectClass>ThatsAMoon.WorldObject_GassyMoon</worldObjectClass>
-    <texture>UI/gassymoon</texture>
-    <useDynamicDrawer>false</useDynamicDrawer>
-    <expandingIcon>true</expandingIcon>
-    <expandingIconTexture>UI/gassymoon</expandingIconTexture>
-    <expandingIconPriority>6</expandingIconPriority>
-  </WorldObjectDef>
-  
-  <WorldObjectDef>
-    <defName>DestroyedMoon</defName>
-    <label>destroyed moon</label>
-    <description>A ruin of a miniature moon, heavily bombarded by debris until its orbit was irrevocably altered, causing it to be pulled apart by tidal forces.</description>
-    <worldObjectClass>ThatsAMoon.WorldObject_DestroyedMoon</worldObjectClass>
-    <texture>UI/destroyedmoon</texture>
-    <useDynamicDrawer>false</useDynamicDrawer>
-    <expandingIcon>true</expandingIcon>
-    <expandingIconTexture>UI/destroyedmoon</expandingIconTexture>
-    <expandingIconPriority>6</expandingIconPriority>
-  </WorldObjectDef>
-  
-  <WorldObjectDef>
-    <defName>Asteroid</defName>
-    <label>asteroid</label>
-    <description>An asteroid, one of what could be many, many tiny satellites orbiting this rimworld.</description>
-    <worldObjectClass>ThatsAMoon.WorldObject_Asteroid</worldObjectClass>
-    <texture>UI/asteroid</texture>
-    <useDynamicDrawer>false</useDynamicDrawer>
-    <expandingIcon>true</expandingIcon>
-    <expandingIconTexture>UI/asteroid</expandingIconTexture>
-    <expandingIconPriority>6</expandingIconPriority>
-  </WorldObjectDef>
-  
-  
-  
    <WorldObjectDef>
     <defName>RockMoon</defName>
     <label>small moon</label>
@@ -60,6 +10,7 @@
     <useDynamicDrawer>false</useDynamicDrawer>
     <expandingIcon>true</expandingIcon>
     <expandingIconTexture>UI/smallmoon</expandingIconTexture>
+	<mapGenerator>MoonMap</mapGenerator>
     <expandingIconPriority>6</expandingIconPriority>
   </WorldObjectDef>
   
@@ -73,6 +24,7 @@
     <expandingIcon>true</expandingIcon>
     <expandingIconTexture>UI/gassymoon</expandingIconTexture>
     <expandingIconPriority>6</expandingIconPriority>
+	<mapGenerator>MoonMap</mapGenerator>
   </WorldObjectDef>
   
   <WorldObjectDef>
@@ -85,6 +37,7 @@
     <expandingIcon>true</expandingIcon>
     <expandingIconTexture>UI/destroyedmoon</expandingIconTexture>
     <expandingIconPriority>6</expandingIconPriority>
+	<mapGenerator>MoonMap</mapGenerator>
   </WorldObjectDef>
   
   <WorldObjectDef>
@@ -97,172 +50,14 @@
     <expandingIcon>true</expandingIcon>
     <expandingIconTexture>UI/asteroid</expandingIconTexture>
     <expandingIconPriority>6</expandingIconPriority>
+	<mapGenerator>MoonMap</mapGenerator>
   </WorldObjectDef>
   
   
   
   
   
-    <ThingDef ParentName="BuildingBase">
-    <defName>MoonPodLauncher</defName>
-    <label>moon pod launcher</label>
-    <description>A fueling port for launching one transport pod. Pod launchers can launch as a group - but the launchers must be placed adjacent to each other.</description>
-    <graphicData>
-      <texPath>Things/Building/Misc/PodLauncher</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <drawSize>(2,3)</drawSize>
-    </graphicData>
-    <size>(1,2)</size>
-    <rotatable>true</rotatable>
-    <altitudeLayer>Building</altitudeLayer>
-    <passability>Impassable</passability>
-    <castEdgeShadows>true</castEdgeShadows>
-    <fillPercent>1.0</fillPercent>
-    <designationCategory>Misc</designationCategory>
-    <canOverlapZones>false</canOverlapZones>
-    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-    <building>
-      <hasFuelingPort>true</hasFuelingPort>
-    </building>
-    <statBases>
-      <MaxHitPoints>200</MaxHitPoints>
-      <WorkToBuild>3000</WorkToBuild>
-      <Flammability>0.5</Flammability>
-    </statBases>
-    <costList>
-      <Steel>250</Steel>
-      <ComponentIndustrial>10</ComponentIndustrial>
-	  <Plasteel>120</Plasteel>
-    </costList>
-    <comps>
-      <li Class="CompProperties_Refuelable">
-        <fuelCapacity>1500.0</fuelCapacity>
-        <targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>
-        <initialConfigurableTargetFuelLevel>1500</initialConfigurableTargetFuelLevel>
-        <fuelFilter>
-          <thingDefs>
-            <li>Chemfuel</li>
-          </thingDefs>
-        </fuelFilter>
-        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
-        <autoRefuelPercent>1</autoRefuelPercent>
-        <showFuelGizmo>true</showFuelGizmo>
-        <drawOutOfFuelOverlay>false</drawOutOfFuelOverlay>
-        <drawFuelGaugeInMap>true</drawFuelGaugeInMap>
-        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
-    </li>
-    </comps>
-    <placeWorkers>
-      <li>PlaceWorker_FuelingPort</li>
-      <li>PlaceWorker_NotUnderRoof</li>
-    </placeWorkers>
-    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
-    <researchPrerequisites>
-      <li>TransportPod</li>
-    </researchPrerequisites>
-    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
-    <uiIconScale>0.9</uiIconScale>
-  </ThingDef>
   
-  <ThingDef ParentName="BuildingBase">
-    <defName>MoonTransportPod</defName>
-    <label>moon transport pod</label>
-    <description>A launchable sub-orbital cargo pod capable of carrying people, items, or animals. Can be used for sending gifts, transporting people or supplies, surprise attacks, or reinforcing battles.</description>
-    <graphicData>
-      <texPath>Things/Items/Rocket</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(2,2)</drawSize>
-    </graphicData>
-    <size>(1,2)</size>
-    <rotatable>false</rotatable>
-    <tickerType>Normal</tickerType>
-    <altitudeLayer>BuildingOnTop</altitudeLayer>
-    <passability>PassThroughOnly</passability>
-    <castEdgeShadows>false</castEdgeShadows>
-    <designationHotKey>Misc12</designationHotKey>
-    <fillPercent>0.5</fillPercent>
-    <designationCategory>Misc</designationCategory>
-    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-    <statBases>
-      <MaxHitPoints>250</MaxHitPoints>
-      <WorkToBuild>1600</WorkToBuild>
-      <Flammability>0.5</Flammability>
-    </statBases>
-    <costList>
-      <Steel>60</Steel>
-      <ComponentIndustrial>1</ComponentIndustrial>
-    </costList>
-    <comps>
-      <li Class="CompProperties_Transporter">
-        <restEffectiveness>0.95</restEffectiveness>
-      </li>
-      <li Class="CompProperties_Launchable" />
-    </comps>
-    <inspectorTabs>
-      <li>ITab_ContentsTransporter</li>
-    </inspectorTabs>
-    <placeWorkers>
-      <li>PlaceWorker_NeedsFuelingPort</li>
-      <li>PlaceWorker_NotUnderRoof</li>
-    </placeWorkers>
-    <researchPrerequisites>
-      <li>TransportPod</li>
-    </researchPrerequisites>
-    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
-    <uiIconScale>0.65</uiIconScale>
-  </ThingDef>
-  
-  
-    <ThingDef ParentName="BuildingBase">
-    <defName>RefTelescope</defName>
-    <label>Refracting scope</label>
-    <description>A telescope for doing professional astronomy. It's a can see far away places and inspire people to reach for the stars. Can only be used outdoors.</description>
-    <graphicData>
-      <texPath>Things/Building/Joy/Telescope</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawRotated>false</drawRotated>
-      <shadowData>
-        <volume>(0.3, 0.7, 0.3)</volume>
-    <offset>(-0.03,0,-0.35)</offset>
-      </shadowData>
-    </graphicData>
-    <canBeUsedUnderRoof>false</canBeUsedUnderRoof>
-    <fillPercent>0.15</fillPercent>
-    <altitudeLayer>Building</altitudeLayer>
-    <hasInteractionCell>true</hasInteractionCell>
-    <interactionCellOffset>(0,0,1)</interactionCellOffset>
-    <passability>PassThroughOnly</passability>
-    <pathCost>50</pathCost>
-    <minifiedDef>MinifiedThing</minifiedDef>
-    <socialPropernessMatters>true</socialPropernessMatters>
-    <thingCategories>
-      <li>BuildingsJoy</li>
-    </thingCategories>
-    <building>
-      <joyKind>Telescope</joyKind>
-    </building>
-	
-    <designationCategory>Misc</designationCategory>
-    <costList>
-      <Steel>50</Steel>
-      <ComponentIndustrial>1</ComponentIndustrial>
-    </costList>
-	<comps>
-
-      <li Class="ThatsAMoon.CompProperties_MoonScope" />
-    </comps>
-    <statBases>
-      <MaxHitPoints>75</MaxHitPoints>
-      <Flammability>1.0</Flammability>
-      <MarketValue>350</MarketValue>
-      <Mass>7.5</Mass>
-      <JoyGainFactor>1.2</JoyGainFactor>
-    </statBases>
-    <placeWorkers>
-      <li>PlaceWorker_NotUnderRoof</li>
-      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
-    </placeWorkers>
-  </ThingDef>
   
   
 </Defs>
