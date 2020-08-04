@@ -6,9 +6,9 @@
 
 - [x] Orbiting moon
 
-- [ ] Playable moon biome
+- [x] Playable moon biome
 
-  - [ ] Lunar terrain (should have bad walking speed due to "gravity")
+  - [x] Lunar terrain
 
   - [ ] Disable any spawning events (drastically increase performance)
 
@@ -18,13 +18,13 @@
 
   - Harvesting resources
 
-    - [ ] Mining vessels operated by colonist traveling to "asteroids" to mine random minerals and chunks (can just be behind the scenes like the empire mod - good for performance)
+   - [ ] Mining vessels operated by colonist traveling to "asteroids" to mine random minerals and chunks (can just be behind the scenes like the empire mod - good for performance)
 
-      - [ ] Random anomalies that the user can decide what they want to do with. Random outcomes (like text-based RPG games)
+   - [ ] Random anomalies that the user can decide what they want to do with. Random outcomes (like text-based RPG games)
 
-    - [ ] A ship capable landing on the Rimworld to gather resources
+   - [ ] A ship capable landing on the Rimworld to gather resources
 
-    - [ ] (Late game) AI Ships capable of mining and hauling (from one planet to another) without colonist operating
+   - [ ] (Late game) AI Ships capable of mining and hauling (from one planet to another) without colonist operating
 
 - [ ] Add oxygen variable (Maybe depend on sos2)
 
