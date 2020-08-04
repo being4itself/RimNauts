@@ -122,19 +122,21 @@
 		<description>A observatory for doing professional astronomy. It's a can see far away places and inspire people to reach for the stars. Can only be used outdoors.</description>
 
 		<graphicData>
-			<texPath>Things/Building/Joy/Telescope</texPath>
+			<texPath>Things/Items/SatelliteDish</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(8,9)</drawSize>
 			<drawRotated>false</drawRotated>
 			<shadowData>
 				<volume>(0.3, 0.7, 0.3)</volume>
 				<offset>(-0.03,0,-0.35)</offset>
 			</shadowData>
 		</graphicData>
+		<size>(7,9)</size>
 		<canBeUsedUnderRoof>false</canBeUsedUnderRoof>
 		<fillPercent>0.15</fillPercent>
 		<altitudeLayer>Building</altitudeLayer>
 		<hasInteractionCell>true</hasInteractionCell>
-		<interactionCellOffset>(0,0,1)</interactionCellOffset>
+		<interactionCellOffset>(0,6,1)</interactionCellOffset>
 		<passability>PassThroughOnly</passability>
 		
 		<pathCost>50</pathCost>
@@ -143,7 +145,7 @@
 		<thingCategories>
 			<li>BuildingsJoy</li>
 		</thingCategories>
-			<building>
+		<building>
 			<joyKind>Telescope</joyKind>
 		</building>
 		<designationCategory>Misc</designationCategory>
