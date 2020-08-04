@@ -1,4 +1,0 @@
-B:\SteamLibrary\steamapps\common\RimWorld\Mods\Orion\Assemblies\ToolBagUda_DefendShipJob.dll
-B:\SteamLibrary\steamapps\common\RimWorld\Mods\Orion\Source\ToolBagUda\ToolBagUda_DefendShipJob\obj\Debug\ToolBagUda_DefendShipJob.csprojAssemblyReference.cache
-B:\SteamLibrary\steamapps\common\RimWorld\Mods\Orion\Source\ToolBagUda\ToolBagUda_DefendShipJob\obj\Debug\ToolBagUda_DefendShipJob.csproj.CoreCompileInputs.cache
-B:\SteamLibrary\steamapps\common\RimWorld\Mods\Orion\Source\ToolBagUda\ToolBagUda_DefendShipJob\obj\Debug\ToolBagUda_DefendShipJob.dll
