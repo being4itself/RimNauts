@@ -55,6 +55,11 @@
   
   
   
+    <ThatsAMoon.SatelliteDef>
+		<defName>SatelliteCore</defName>
+		<WorldObjectDefNames><li>AsteroidSatellite</li></WorldObjectDefNames>
+		<orbitPeriod>60000</orbitPeriod>
+  </ThatsAMoon.SatelliteDef>
   
   
   
