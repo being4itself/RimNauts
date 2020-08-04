@@ -7,15 +7,15 @@
     <label>Moon Rocket Launcher</label>
     <description>A fueling port for launching one transport pod. Pod launchers can launch as a group - but the launchers must be placed adjacent to each other.</description>
     <graphicData>
-      <texPath>Things/Building/Misc/PodLauncher</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <drawSize>(2,3)</drawSize>
+      <texPath>Things/Items/LaunchPad</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(6,8)</drawSize>
     </graphicData>
-    <size>(1,2)</size>
-    <rotatable>true</rotatable>
+    <size>(1,6)</size>
+    <rotatable>false</rotatable>
     <altitudeLayer>Building</altitudeLayer>
     <passability>Impassable</passability>
-    <castEdgeShadows>true</castEdgeShadows>
+    <castEdgeShadows>false</castEdgeShadows>
     <fillPercent>1.0</fillPercent>
     <designationCategory>Misc</designationCategory>
     <canOverlapZones>false</canOverlapZones>
@@ -70,9 +70,9 @@
     <graphicData>
       <texPath>Things/Items/Rocket</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(2,2)</drawSize>
+      <drawSize>(4,8)</drawSize>
     </graphicData>
-    <size>(1,2)</size>
+    <size>(1,8)</size>
     <rotatable>false</rotatable>
     <tickerType>Normal</tickerType>
     <altitudeLayer>BuildingOnTop</altitudeLayer>
