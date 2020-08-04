@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- (base) void -->
+	<TerrainDef Name="lunarSurface" ParentName="NaturalTerrainBase">
+		<defName>lunarSurface</defName>
+		<label>lunarSurface</label>
+		<description>Lunar Surface.</description>
+		<texturePath>Terrain/Surfaces/lunarSurface</texturePath>
+    <edgeType>FadeRough</edgeType>
+    <renderPrecedence>340</renderPrecedence>
+    <pathCost>2</pathCost>
+    <statBases>
+      <Beauty>-1</Beauty>
+      <Cleanliness>-1</Cleanliness>
+    </statBases>
+    <affordances>
+      <li>Light</li>
+      <li>Medium</li>
+      <li>Heavy</li>
+      <li>Light</li>
+      <li>Diggable</li>
+    </affordances>
+    <generatedFilth>Filth_Sand</generatedFilth>
+    <fertility>0.0</fertility>
+    <takeFootprints>True</takeFootprints>
+	</TerrainDef>
+	
+	<TerrainDef>
+    <defName>EmptySpace</defName>
+    <label>vacuum</label>
+    <texturePath>Terrain/Surfaces/space</texturePath>
+	<edgeType>FadeRough</edgeType>
+    <renderPrecedence>20</renderPrecedence>
+    <passability>Impassable</passability>
+    <pathCost>300</pathCost>
+    <changeable>false</changeable>
+    <filthAcceptanceMask>
+      <li>None</li>
+    </filthAcceptanceMask>
+    <fertility>0</fertility>
+    <avoidWander>true</avoidWander>
+	<holdSnow>false</holdSnow>
+	<affordances>
+      <li>Light</li>
+	  <li>Medium</li>
+      <li>Heavy</li>
+    </affordances>
+  </TerrainDef>
+
+</Defs>

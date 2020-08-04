@@ -12,6 +12,9 @@
     <expandingIconTexture>UI/smallmoon</expandingIconTexture>
 	<mapGenerator>MoonMap</mapGenerator>
     <expandingIconPriority>6</expandingIconPriority>
+	<comps>
+      <li Class="ThatsAMoon.WorldObjectCompProperties_FormCaravanMoon" />
+     </comps>
   </WorldObjectDef>
   
   <WorldObjectDef>
@@ -25,6 +28,9 @@
     <expandingIconTexture>UI/gassymoon</expandingIconTexture>
     <expandingIconPriority>6</expandingIconPriority>
 	<mapGenerator>MoonMap</mapGenerator>
+		<comps>
+      <li Class="ThatsAMoon.WorldObjectCompProperties_FormCaravanMoon" />
+     </comps>
   </WorldObjectDef>
   
   <WorldObjectDef>
@@ -38,19 +44,25 @@
     <expandingIconTexture>UI/destroyedmoon</expandingIconTexture>
     <expandingIconPriority>6</expandingIconPriority>
 	<mapGenerator>MoonMap</mapGenerator>
+		<comps>
+      <li Class="ThatsAMoon.WorldObjectCompProperties_FormCaravanMoon" />
+     </comps>
   </WorldObjectDef>
   
   <WorldObjectDef>
     <defName>AsteroidSatellite</defName>
-    <label>asteroid</label>
-    <description>An asteroid, one of what could be many, many tiny satellites orbiting this rimworld.</description>
+    <label>Active Moon</label>
+    <description>A moon with a high amount of surface activity.</description>
     <worldObjectClass>ThatsAMoon.WorldObjectChild_Satellite</worldObjectClass>
-    <texture>UI/asteroid</texture>
+    <texture>UI/titan</texture>
     <useDynamicDrawer>false</useDynamicDrawer>
     <expandingIcon>true</expandingIcon>
-    <expandingIconTexture>UI/asteroid</expandingIconTexture>
+    <expandingIconTexture>UI/titan</expandingIconTexture>
     <expandingIconPriority>6</expandingIconPriority>
 	<mapGenerator>MoonMap</mapGenerator>
+		<comps>
+      <li Class="ThatsAMoon.WorldObjectCompProperties_FormCaravanMoon" />
+     </comps>
   </WorldObjectDef>
   
   
