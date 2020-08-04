@@ -6,20 +6,47 @@
 		<label>lunarSurface</label>
 		<description>Lunar Surface.</description>
 		<texturePath>Terrain/Surfaces/lunarSurface</texturePath>
-		<edgeType>FadeRough</edgeType>
-		<renderPrecedence>350</renderPrecedence>
-		<affordances>
-			<li>Light</li>
-			<li>Medium</li>
-			<li>Heavy</li>
-			<li>GrowSoil</li>
-			<li>Diggable</li>
-		</affordances>
-		<takeFootprints>true</takeFootprints>
-		<statBases>
-			<Beauty>0</Beauty>
-		</statBases>
-		<fertility>0</fertility>
+    <edgeType>FadeRough</edgeType>
+    <renderPrecedence>340</renderPrecedence>
+    <pathCost>2</pathCost>
+    <statBases>
+      <Beauty>-1</Beauty>
+      <Cleanliness>-1</Cleanliness>
+    </statBases>
+    <affordances>
+      <li>Light</li>
+      <li>Medium</li>
+      <li>Heavy</li>
+      <li>Light</li>
+      <li>Diggable</li>
+    </affordances>
+    <generatedFilth>Filth_Sand</generatedFilth>
+    <fertility>0.0</fertility>
+    <takeFootprints>True</takeFootprints>
 	</TerrainDef>
+	
+	<!--TerrainDef Name="lunarDirt" ParentName="NaturalTerrainBase">
+		<defName>lunarDirt</defName>
+		<label>lunarDirt</label>
+		<description>Lunar Dirt.</description>
+		<texturePath>Terrain/Surfaces/lunarDirt</texturePath>
+    <edgeType>FadeRough</edgeType>
+    <renderPrecedence>340</renderPrecedence>
+    <pathCost>2</pathCost>
+    <statBases>
+      <Beauty>-1</Beauty>
+      <Cleanliness>-1</Cleanliness>
+    </statBases>
+    <affordances>
+      <li>Light</li>
+      <li>Medium</li>
+      <li>Heavy</li>
+      <li>Light</li>
+      <li>Diggable</li>
+    </affordances>
+    <generatedFilth>Filth_Sand</generatedFilth>
+    <fertility>0.0</fertility>
+    <takeFootprints>True</takeFootprints>
+	</TerrainDef-->
 
 </Defs>
