@@ -67,4 +67,48 @@
     </affordances>
   </TerrainDef>
 
+  <TerrainDef Name="asteroidIce" ParentName="NaturalTerrainBase">
+		<defName>asteroidIce</defName>
+		<label>asteroid ice</label>
+		<description>Asteroid coverd in ice.</description>
+		<texturePath>Terrain/Surfaces/asteroidIce</texturePath>
+    <edgeType>Fade</edgeType>
+    <renderPrecedence>340</renderPrecedence>
+    <pathCost>2</pathCost>
+    <statBases>
+      <Beauty>0</Beauty>
+      <Cleanliness>-1</Cleanliness>
+    </statBases>
+    <affordances>
+      <li>Light</li>
+      <li>Medium</li>
+      <li>Heavy</li>
+      <li>Diggable</li>
+    </affordances>
+    <fertility>0.0</fertility>
+    <takeFootprints>True</takeFootprints>
+	</TerrainDef>
+
+  <TerrainDef Name="asteroidIcePlus" ParentName="NaturalTerrainBase">
+		<defName>asteroidIcePlus</defName>
+		<label>very icy asteroid</label>
+		<description>Asteroid coverd in even more ice.</description>
+		<texturePath>Terrain/Surfaces/asteroidIcePlus</texturePath>
+    <edgeType>Fade</edgeType>
+    <renderPrecedence>340</renderPrecedence>
+    <pathCost>2</pathCost>
+    <statBases>
+      <Beauty>0</Beauty>
+      <Cleanliness>-1</Cleanliness>
+    </statBases>
+    <affordances>
+      <li>Light</li>
+      <li>Medium</li>
+      <li>Heavy</li>
+      <li>Diggable</li>
+    </affordances>
+    <fertility>0.0</fertility>
+    <takeFootprints>True</takeFootprints>
+	</TerrainDef>
+
 </Defs>
