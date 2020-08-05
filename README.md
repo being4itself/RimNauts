@@ -4,9 +4,13 @@
 
 ## Bugs
 
-- SOS2 replaces vaccum tile which makes it look like an ocean (blue) / seems to add rock roofs in vaccum
+- SOS2 replaces vacuum tile which makes it look like an ocean (blue) / seems to add rock roofs in vaccum
 
-- Still adds sandstone (should just be moon rock)
+  - This does not happen without SOS2
+
+- Still adds other types of stone (should just be moon rock)
+
+  - Got no moon stone on the moon, almost all of the home planet had moonstone
 
 ## Roadmap
 
