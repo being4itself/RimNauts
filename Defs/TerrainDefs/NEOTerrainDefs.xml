@@ -46,7 +46,7 @@
 	</TerrainDef>	
 	
 	<TerrainDef>
-    <defName>NearSpace</defName>
+    <defName>EmptySpace</defName>
     <label>vacuum</label>
     <texturePath>Terrain/Surfaces/space</texturePath>
 	<edgeType>FadeRough</edgeType>
