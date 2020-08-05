@@ -20,8 +20,13 @@
     </diseases>
     <terrainsByFertility>
       <li>
-        <terrain>lunarSurface</terrain>
+        <terrain>lunarSand</terrain>
         <min>-999</min>
+        <max>0</max>
+      </li>
+      <li>
+        <terrain>lunarSurface</terrain>
+        <min>1</min>
         <max>999</max>
       </li>
     </terrainsByFertility>

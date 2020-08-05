@@ -3,27 +3,47 @@
 	<!-- (base) void -->
 	<TerrainDef Name="lunarSurface" ParentName="NaturalTerrainBase">
 		<defName>lunarSurface</defName>
-		<label>lunarSurface</label>
+		<label>lunar surface</label>
 		<description>Lunar Surface.</description>
 		<texturePath>Terrain/Surfaces/lunarSurface</texturePath>
     <edgeType>FadeRough</edgeType>
     <renderPrecedence>340</renderPrecedence>
     <pathCost>2</pathCost>
     <statBases>
-      <Beauty>-1</Beauty>
+      <Beauty>0</Beauty>
       <Cleanliness>-1</Cleanliness>
     </statBases>
     <affordances>
       <li>Light</li>
       <li>Medium</li>
       <li>Heavy</li>
-      <li>Light</li>
       <li>Diggable</li>
     </affordances>
     <generatedFilth>Filth_Sand</generatedFilth>
     <fertility>0.0</fertility>
     <takeFootprints>True</takeFootprints>
 	</TerrainDef>
+
+	<TerrainDef Name="lunarSurface" ParentName="NaturalTerrainBase">
+		<defName>lunarSand</defName>
+		<label>lunar sand</label>
+		<description>Lunar Sand.</description>
+		<texturePath>Terrain/Surfaces/lunarSand</texturePath>
+    <edgeType>FadeRough</edgeType>
+    <renderPrecedence>350</renderPrecedence>
+    <pathCost>5</pathCost>
+    <statBases>
+      <Beauty>0</Beauty>
+      <Cleanliness>-2</Cleanliness>
+    </statBases>
+    <affordances>
+      <li>Light</li>
+      <li>Medium</li>
+    </affordances>
+    <generatedFilth>Filth_Sand</generatedFilth>
+    <fertility>0.0</fertility>
+    <takeFootprints>True</takeFootprints>
+	</TerrainDef>	
 	
 	<TerrainDef>
     <defName>EmptySpace</defName>
