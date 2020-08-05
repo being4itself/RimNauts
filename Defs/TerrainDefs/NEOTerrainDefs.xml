@@ -24,7 +24,7 @@
     <takeFootprints>True</takeFootprints>
 	</TerrainDef>
 
-	<TerrainDef Name="lunarSurface" ParentName="NaturalTerrainBase">
+	<TerrainDef Name="lunarSand" ParentName="NaturalTerrainBase">
 		<defName>lunarSand</defName>
 		<label>lunar sand</label>
 		<description>Lunar Sand.</description>
