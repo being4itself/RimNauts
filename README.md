@@ -2,6 +2,10 @@
 
 ---
 
+## Bugs
+
+- SOS2 replaces vaccum tile which makes it look like an ocean (blue) / seems to add rock roofs in vaccum
+
 ## Roadmap
 
 - [x] Orbiting moon
@@ -10,11 +14,11 @@
 
   - [x] Lunar terrain
 
-  - [ ] Disable any spawning events (drastically increase performance)
+  - [x] Disable any spawning events (drastically increase performance)
 
-  - [ ] Disable all walking caravan/raiders events (replace with orbital trading and drop pod raids)
+  - [x] Disable all walking caravan/raiders events (replace with orbital trading and drop pod raids)
 
-  - [ ] Drasticly increase/decrease temperature depending on night and day cycle
+  - [x] Drasticly increase/decrease temperature depending on night and day cycle
 
   - Harvesting resources
 
