@@ -72,7 +72,7 @@
 		<label>asteroid ice</label>
 		<description>Asteroid coverd in ice.</description>
 		<texturePath>Terrain/Surfaces/asteroidIce</texturePath>
-    <edgeType>Fade</edgeType>
+    <edgeType>FadeRough</edgeType>
     <renderPrecedence>340</renderPrecedence>
     <pathCost>2</pathCost>
     <statBases>
@@ -94,7 +94,7 @@
 		<label>very icy asteroid</label>
 		<description>Asteroid coverd in even more ice.</description>
 		<texturePath>Terrain/Surfaces/asteroidIcePlus</texturePath>
-    <edgeType>Fade</edgeType>
+    <edgeType>FadeRough</edgeType>
     <renderPrecedence>340</renderPrecedence>
     <pathCost>2</pathCost>
     <statBases>
