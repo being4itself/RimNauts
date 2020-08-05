@@ -6,6 +6,8 @@
 
 - SOS2 replaces vaccum tile which makes it look like an ocean (blue) / seems to add rock roofs in vaccum
 
+- Still adds sandstone (should just be moon rock)
+
 ## Roadmap
 
 - [x] Orbiting moon
