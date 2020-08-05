@@ -7,7 +7,7 @@
     <generateCommonality>0</generateCommonality>
     <description>A chunk of Moonstone.</description>
     <graphicData>
-      <color>(240,234,214)</color>
+      <color>(210,210,210)</color>
     </graphicData>
     <statBases>
       <MaxHitPoints>400</MaxHitPoints>
@@ -18,13 +18,14 @@
       <smoothedThing>BiomesNEO_SmoothedMoonstone</smoothedThing>
     </building>
   </ThingDef>
+  <!-- Smooth Moonstone -->
   <ThingDef ParentName="BiomesNEO_MoonstoneRockBase">
     <defName>BiomesNEO_SmoothedMoonstone</defName>
     <label>smoothed Moonstone</label>
     <description>Smoothed and polished Moonstone</description>
     <graphicData>
       <texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
-	       <color>(240,234,214)</color>
+	       <color>(210,210,210)</color>
     </graphicData>
     <statBases>
       <Beauty>1</Beauty>
@@ -38,11 +39,12 @@
     <saveCompressible>false</saveCompressible>
     <repairEffect>Repair</repairEffect>
   </ThingDef>
+  <!-- Moonstone Chunk-->
   <ThingDef ParentName="ChunkRockBase">
     <defName>BiomesNEO_ChunkMoonstone</defName>
     <label>Moonstone chunk</label>
     <graphicData>
-      <color>(240,234,214)</color>
+      <color>(210,210,210)</color>
     </graphicData>
     <statBases>
       <Mass>22</Mass>
@@ -52,18 +54,19 @@
       <BiomesNEO_BlocksMoonstone>20</BiomesNEO_BlocksMoonstone>
     </butcherProducts>
   </ThingDef>
+  <!-- Moonstone Blocks -->
   <ThingDef ParentName="StoneBlocksBase">
     <defName>BiomesNEO_BlocksMoonstone</defName>
     <label>Moonstone blocks</label>
     <description>Blocks of solid Moonstone.</description>
     <graphicData>
-      <color>(240,234,214)</color>
+      <color>(210,210,210)</color>
     </graphicData>
     <statBases>
       <Mass>1.0</Mass>
     </statBases>
     <stuffProps>
-      <color>(240,234,214)</color>
+      <color>(210,210,210)</color>
       <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
       <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
       <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
@@ -74,6 +77,7 @@
       <commonality>0</commonality>
     </stuffProps>
   </ThingDef>
+  <!-- Moonstone Blocks order -->
   <RecipeDef ParentName="MakeStoneBlocksBase">
     <defName>BiomesNEO_Make_StoneBlocksMoonstone</defName>
     <label>make Moonstone blocks</label>
@@ -97,18 +101,20 @@
       <BiomesNEO_BlocksMoonstone>20</BiomesNEO_BlocksMoonstone>
     </products>
   </RecipeDef>
+  <!-- Moonstone Tiles -->
   <TerrainDef ParentName="TileStoneBase">
     <defName>BiomesNEO_TileMoonstone</defName>
     <label>Moonstone tile</label>
-    <color>(240,234,214)</color>
+    <color>(210,210,210)</color>
     <costList>
       <BiomesNEO_BlocksMoonstone>4</BiomesNEO_BlocksMoonstone>
     </costList>
   </TerrainDef>
+  <!-- Moonstone Flagstone -->
   <TerrainDef ParentName="FlagstoneBase">
     <defName>BiomesNEO_FlagstoneMoonstone</defName>
     <label>Moonstone flagstone</label>
-    <color>(240,234,214)</color>
+    <color>(210,210,210)</color>
     <costList>
       <BiomesNEO_BlocksMoonstone>4</BiomesNEO_BlocksMoonstone>
     </costList>
