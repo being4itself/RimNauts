@@ -9,15 +9,15 @@
     <li>1.2</li>
   </supportedVersions>
 	<description>
-This mod adds Near Earth Objects like moons, asteroids and space debris. Everything is visable and animated as an orbit on the world map mode. The moon is a playable biome which you need to discover and travel to using a rocket.
+This mod adds Near Earth Objects (NEO) like moons, asteroids and space debris. Everything is visable and animated in an orbit on the world map. The moon is a playable biome which you need to discover and travel to using a rocket.
 
 
 Known issues
-- There's a bug that causes the moon to disappear when the camera moves far enough away from it (not zooming, I mean when you pan across the world).
+- There's a bug that causes the moon to disappear when the camera moves(not zooming) far enough away from it.
 
 - THIS MOD REQUIRES A NEW SAVE TO SEE THE MOON
 
 Credits
-  xxxx
+- Art: Kasmex and Genome-X
 </description>
 </ModMetaData>
