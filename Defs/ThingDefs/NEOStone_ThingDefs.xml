@@ -45,6 +45,9 @@
     <label>Moonstone chunk</label>
     <graphicData>
       <color>(210,210,210)</color>
+	        <texPath>Things/Rocks</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <flipExtraRotation>80</flipExtraRotation>
     </graphicData>
     <statBases>
       <Mass>22</Mass>
@@ -119,4 +122,128 @@
       <BiomesNEO_BlocksMoonstone>4</BiomesNEO_BlocksMoonstone>
     </costList>
   </TerrainDef>
+  
+  <!-- 					Basalt 				     -->
+  <ThingDef ParentName="UglyRockBase" Name="BiomesNEO_BasaltRockBase">
+    <defName>BiomesNEO_BasaltRock</defName>
+    <label>Basalt</label>
+    <generateCommonality>0</generateCommonality>
+    <description>A chunk of Basalt.</description>
+    <graphicData>
+      <color>(74,67,59)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>800</MaxHitPoints>
+    </statBases>
+    <building>
+      <mineableThing>BiomesNEO_ChunkBasalt</mineableThing>
+      <mineableDropChance>0.25</mineableDropChance>
+      <smoothedThing>BiomesNEO_SmoothedBasalt</smoothedThing>
+    </building>
+  </ThingDef>
+  <!-- Smooth Basalt -->
+  <ThingDef ParentName="BiomesNEO_BasaltRockBase">
+    <defName>BiomesNEO_SmoothedBasalt</defName>
+    <label>smoothed Basalt</label>
+    <description>Smoothed and polished Basalt</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+	       <color>(74,67,59)</color>
+    </graphicData>
+    <statBases>
+      <Beauty>1</Beauty>
+      <MarketValue>15</MarketValue>
+    </statBases>
+    <building>
+      <isNaturalRock>false</isNaturalRock>
+      <canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
+      <smoothedThing />
+    </building>
+    <saveCompressible>false</saveCompressible>
+    <repairEffect>Repair</repairEffect>
+  </ThingDef>
+  <!-- Basalt Chunk-->
+  <ThingDef ParentName="ChunkRockBase">
+    <defName>BiomesNEO_ChunkBasalt</defName>
+    <label>Basalt chunk</label>
+    <graphicData>
+      <color>(74,67,59)</color>
+	        <texPath>Things/Rocks</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <flipExtraRotation>80</flipExtraRotation>
+    </graphicData>
+    <statBases>
+      <Mass>22</Mass>
+    </statBases>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <butcherProducts>
+      <BiomesNEO_BlocksBasalt>20</BiomesNEO_BlocksBasalt>
+    </butcherProducts>
+  </ThingDef>
+  <!-- Basalt Blocks -->
+  <ThingDef ParentName="StoneBlocksBase">
+    <defName>BiomesNEO_BlocksBasalt</defName>
+    <label>Basalt blocks</label>
+    <description>Blocks of solid Basalt.</description>
+    <graphicData>
+      <color>(74,67,59)</color>
+    </graphicData>
+    <statBases>
+      <Mass>1.0</Mass>
+    </statBases>
+    <stuffProps>
+      <color>(74,67,59)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>Basalt</stuffAdjective>
+      <statFactors>
+        <MaxHitPoints>1.2</MaxHitPoints>
+      </statFactors>
+      <commonality>0</commonality>
+    </stuffProps>
+  </ThingDef>
+  <!-- Basalt Blocks order -->
+  <RecipeDef ParentName="MakeStoneBlocksBase">
+    <defName>BiomesNEO_Make_StoneBlocksBasalt</defName>
+    <label>make Basalt blocks</label>
+    <description>Cuts Basalt chunks into usable blocks.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>BiomesNEO_ChunkBasalt</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>BiomesNEO_ChunkBasalt</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <BiomesNEO_BlocksBasalt>20</BiomesNEO_BlocksBasalt>
+    </products>
+  </RecipeDef>
+  <!-- Basalt Tiles -->
+  <TerrainDef ParentName="TileStoneBase">
+    <defName>BiomesNEO_TileBasalt</defName>
+    <label>Basalt tile</label>
+    <color>(74,67,59)</color>
+    <costList>
+      <BiomesNEO_BlocksBasalt>4</BiomesNEO_BlocksBasalt>
+    </costList>
+  </TerrainDef>
+  <!-- Basalt Flagstone -->
+  <TerrainDef ParentName="FlagstoneBase">
+    <defName>BiomesNEO_FlagstoneBasalt</defName>
+    <label>Basalt flagstone</label>
+    <color>(74,67,59)</color>
+    <costList>
+      <BiomesNEO_BlocksBasalt>4</BiomesNEO_BlocksBasalt>
+    </costList>
+  </TerrainDef>
+ 
 </Defs>
