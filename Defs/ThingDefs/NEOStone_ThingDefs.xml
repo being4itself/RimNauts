@@ -3,7 +3,7 @@
   <!-- 					Moonstone 				     -->
   <ThingDef ParentName="UglyRockBase" Name="BiomesNEO_MoonstoneRockBase">
     <defName>BiomesNEO_MoonstoneRock</defName>
-    <label>Moonstone</label>
+    <label>moonstone</label>
     <generateCommonality>0</generateCommonality>
     <description>A chunk of Moonstone.</description>
     <graphicData>
@@ -21,8 +21,8 @@
   <!-- Smooth Moonstone -->
   <ThingDef ParentName="BiomesNEO_MoonstoneRockBase">
     <defName>BiomesNEO_SmoothedMoonstone</defName>
-    <label>smoothed Moonstone</label>
-    <description>Smoothed and polished Moonstone</description>
+    <label>smoothed moonstone</label>
+    <description>Smoothed and polished moonstone</description>
     <graphicData>
       <texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
 	       <color>(210,210,210)</color>
@@ -42,7 +42,7 @@
   <!-- Moonstone Chunk-->
   <ThingDef ParentName="ChunkRockBase">
     <defName>BiomesNEO_ChunkMoonstone</defName>
-    <label>Moonstone chunk</label>
+    <label>moonstone chunk</label>
     <graphicData>
       <color>(210,210,210)</color>
 	        <texPath>Things/Rocks</texPath>
@@ -60,8 +60,8 @@
   <!-- Moonstone Blocks -->
   <ThingDef ParentName="StoneBlocksBase">
     <defName>BiomesNEO_BlocksMoonstone</defName>
-    <label>Moonstone blocks</label>
-    <description>Blocks of solid Moonstone.</description>
+    <label>moonstone blocks</label>
+    <description>Blocks of solid moonstone.</description>
     <graphicData>
       <color>(210,210,210)</color>
     </graphicData>
@@ -73,7 +73,7 @@
       <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
       <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
       <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
-      <stuffAdjective>Moonstone</stuffAdjective>
+      <stuffAdjective>moonstone</stuffAdjective>
       <statFactors>
         <MaxHitPoints>1.2</MaxHitPoints>
       </statFactors>
@@ -83,8 +83,8 @@
   <!-- Moonstone Blocks order -->
   <RecipeDef ParentName="MakeStoneBlocksBase">
     <defName>BiomesNEO_Make_StoneBlocksMoonstone</defName>
-    <label>make Moonstone blocks</label>
-    <description>Cuts Moonstone chunks into usable blocks.</description>
+    <label>make moonstone blocks</label>
+    <description>Cuts moonstone chunks into usable blocks.</description>
     <ingredients>
       <li>
         <filter>
@@ -107,7 +107,7 @@
   <!-- Moonstone Tiles -->
   <TerrainDef ParentName="TileStoneBase">
     <defName>BiomesNEO_TileMoonstone</defName>
-    <label>Moonstone tile</label>
+    <label>moonstone tile</label>
     <color>(210,210,210)</color>
     <costList>
       <BiomesNEO_BlocksMoonstone>4</BiomesNEO_BlocksMoonstone>
@@ -116,7 +116,7 @@
   <!-- Moonstone Flagstone -->
   <TerrainDef ParentName="FlagstoneBase">
     <defName>BiomesNEO_FlagstoneMoonstone</defName>
-    <label>Moonstone flagstone</label>
+    <label>moonstone flagstone</label>
     <color>(210,210,210)</color>
     <costList>
       <BiomesNEO_BlocksMoonstone>4</BiomesNEO_BlocksMoonstone>
@@ -126,9 +126,9 @@
   <!-- 					Basalt 				     -->
   <ThingDef ParentName="UglyRockBase" Name="BiomesNEO_BasaltRockBase">
     <defName>BiomesNEO_BasaltRock</defName>
-    <label>Basalt</label>
+    <label>basalt</label>
     <generateCommonality>0</generateCommonality>
-    <description>A chunk of Basalt.</description>
+    <description>A chunk of basalt.</description>
     <graphicData>
       <color>(74,67,59)</color>
     </graphicData>
@@ -144,8 +144,8 @@
   <!-- Smooth Basalt -->
   <ThingDef ParentName="BiomesNEO_BasaltRockBase">
     <defName>BiomesNEO_SmoothedBasalt</defName>
-    <label>smoothed Basalt</label>
-    <description>Smoothed and polished Basalt</description>
+    <label>smoothed basalt</label>
+    <description>Smoothed and polished basalt</description>
     <graphicData>
       <texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
 	       <color>(74,67,59)</color>
@@ -165,7 +165,7 @@
   <!-- Basalt Chunk-->
   <ThingDef ParentName="ChunkRockBase">
     <defName>BiomesNEO_ChunkBasalt</defName>
-    <label>Basalt chunk</label>
+    <label>basalt chunk</label>
     <graphicData>
       <color>(74,67,59)</color>
 	        <texPath>Things/Rocks</texPath>
@@ -183,8 +183,8 @@
   <!-- Basalt Blocks -->
   <ThingDef ParentName="StoneBlocksBase">
     <defName>BiomesNEO_BlocksBasalt</defName>
-    <label>Basalt blocks</label>
-    <description>Blocks of solid Basalt.</description>
+    <label>basalt blocks</label>
+    <description>Blocks of solid basalt.</description>
     <graphicData>
       <color>(74,67,59)</color>
     </graphicData>
@@ -206,7 +206,7 @@
   <!-- Basalt Blocks order -->
   <RecipeDef ParentName="MakeStoneBlocksBase">
     <defName>BiomesNEO_Make_StoneBlocksBasalt</defName>
-    <label>make Basalt blocks</label>
+    <label>make basalt blocks</label>
     <description>Cuts Basalt chunks into usable blocks.</description>
     <ingredients>
       <li>
@@ -230,7 +230,7 @@
   <!-- Basalt Tiles -->
   <TerrainDef ParentName="TileStoneBase">
     <defName>BiomesNEO_TileBasalt</defName>
-    <label>Basalt tile</label>
+    <label>basalt tile</label>
     <color>(74,67,59)</color>
     <costList>
       <BiomesNEO_BlocksBasalt>4</BiomesNEO_BlocksBasalt>
@@ -239,7 +239,7 @@
   <!-- Basalt Flagstone -->
   <TerrainDef ParentName="FlagstoneBase">
     <defName>BiomesNEO_FlagstoneBasalt</defName>
-    <label>Basalt flagstone</label>
+    <label>basalt flagstone</label>
     <color>(74,67,59)</color>
     <costList>
       <BiomesNEO_BlocksBasalt>4</BiomesNEO_BlocksBasalt>

@@ -13,7 +13,7 @@
 	<mapGenerator>MoonMap</mapGenerator>
     <expandingIconPriority>6</expandingIconPriority>
 	<comps>
-      <li Class="ThatsAMoon.WorldObjectCompProperties_FormCaravanMoon" />
+	  <li Class="WorldObjectCompProperties_Abandon" />
      </comps>
   </WorldObjectDef>
   
@@ -28,8 +28,8 @@
     <expandingIconTexture>UI/gassymoon</expandingIconTexture>
     <expandingIconPriority>6</expandingIconPriority>
 	<mapGenerator>MoonMap</mapGenerator>
-		<comps>
-      <li Class="ThatsAMoon.WorldObjectCompProperties_FormCaravanMoon" />
+	<comps>
+	  <li Class="WorldObjectCompProperties_Abandon" />
      </comps>
   </WorldObjectDef>
   
@@ -44,8 +44,8 @@
     <expandingIconTexture>UI/destroyedmoon</expandingIconTexture>
     <expandingIconPriority>6</expandingIconPriority>
 	<mapGenerator>MoonMap</mapGenerator>
-		<comps>
-      <li Class="ThatsAMoon.WorldObjectCompProperties_FormCaravanMoon" />
+	<comps>
+	  <li Class="WorldObjectCompProperties_Abandon" />
      </comps>
   </WorldObjectDef>
   
@@ -60,8 +60,8 @@
     <expandingIconTexture>UI/titan</expandingIconTexture>
     <expandingIconPriority>6</expandingIconPriority>
 	<mapGenerator>MoonMap</mapGenerator>
-		<comps>
-      <li Class="ThatsAMoon.WorldObjectCompProperties_FormCaravanMoon" />
+	<comps>
+	  <li Class="WorldObjectCompProperties_Abandon" />
      </comps>
   </WorldObjectDef>
   
@@ -69,8 +69,15 @@
   
     <ThatsAMoon.SatelliteDef>
 		<defName>SatelliteCore</defName>
-		<WorldObjectDefNames><li>AsteroidSatellite</li></WorldObjectDefNames>
+		<WorldObjectDefNames>
+			<li>AsteroidSatellite</li>
+			<li>RockMoon</li>
+			<li>GasMoon</li>
+			<li>BrokenMoon</li>
+		</WorldObjectDefNames>
 		<orbitPeriod>60000</orbitPeriod>
+		<maxOrbits>(350,10,200)</maxOrbits> <!--(x,y,z) abs values of ellipse when crossing respective axis -->
+		<shiftOrbits>(20,20,20)</shiftOrbits><!--(x,y,z) abs values offsets of center of ellipse -->
   </ThatsAMoon.SatelliteDef>
   
   

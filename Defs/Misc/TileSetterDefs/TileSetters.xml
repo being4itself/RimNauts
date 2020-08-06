@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThatsAMoon.TileSetterDef>
+		<defName>testTileSetter</defName>
+		<biomeDef>RockMoonBiome</biomeDef>
+		<!--Pairs>
+			<li>
+				<targetDef>Sand</targetDef>
+				<swapDef>Soil</swapDef>
+			</li>
+		</Pairs-->
+		<thingPairs>
+			<li>
+				<targetDef>Sandstone</targetDef>
+				<swapDef>BiomesNEO_MoonstoneRock</swapDef>
+			</li>
+			<li>
+				<targetDef>Marble</targetDef>
+				<swapDef>BiomesNEO_MoonstoneRock</swapDef>
+			</li>
+			<li>
+				<targetDef>Granite</targetDef>
+				<swapDef>BiomesNEO_MoonstoneRock</swapDef>
+			</li>			
+			<li>
+				<targetDef>Slate</targetDef>
+				<swapDef>BiomesNEO_MoonstoneRock</swapDef>
+			</li>	
+			<li>
+				<targetDef>Limestone</targetDef>
+				<swapDef>BiomesNEO_MoonstoneRock</swapDef>
+			</li>		
+		</thingPairs>		
+		
+		
+	</ThatsAMoon.TileSetterDef>
+
+
+
+</Defs>

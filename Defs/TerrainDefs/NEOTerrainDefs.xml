@@ -5,8 +5,7 @@
 		<defName>lunarSurface</defName>
 		<label>lunar surface</label>
 		<description>Lunar Surface.</description>
-		<texturePath>Terrain/Surfaces/lunarSurfaceFine</texturePath>
-    <edgeType>Fade</edgeType>
+	    <texturePath>Terrain/Surfaces/lunarSurfaceRough</texturePath>
     <renderPrecedence>340</renderPrecedence>
     <pathCost>2</pathCost>
     <statBases>
@@ -28,7 +27,7 @@
 		<defName>lunarSand</defName>
 		<label>lunar sand</label>
 		<description>Lunar Sand.</description>
-		<texturePath>Terrain/Surfaces/lunarSurfaceRough</texturePath>
+	    <texturePath>Terrain/Surfaces/lunarSurfaceFine</texturePath>
     <edgeType>FadeRough</edgeType>
     <renderPrecedence>350</renderPrecedence>
     <pathCost>5</pathCost>
@@ -46,7 +45,7 @@
 	</TerrainDef>	
 	
 	<TerrainDef>
-    <defName>EmptySpace</defName>
+    <defName>OpenSpace</defName>
     <label>vacuum</label>
     <texturePath>Terrain/Surfaces/space</texturePath>
 	<edgeType>FadeRough</edgeType>
@@ -132,5 +131,4 @@
     <fertility>0.0</fertility>
     <takeFootprints>True</takeFootprints>
 	</TerrainDef>
-
 </Defs>
