@@ -1,30 +1,62 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-   <WorldObjectDef>
+	<WorldObjectDef>
 		<defName>RockMoon</defName>
 		<label>small moon</label>
 		<description>One of what could be many, many moons orbiting this rimworld.</description>
 		<worldObjectClass>ThatsAMoon.WorldObjectChild_Satellite</worldObjectClass>
-		<texture>UI/smallmoon</texture>
+		<texture>NEOs/Rimroids/smallmoon</texture>
 		<useDynamicDrawer>false</useDynamicDrawer>
 		<expandingIcon>true</expandingIcon>
-		<expandingIconTexture>UI/smallmoon</expandingIconTexture>
+		<expandingIconTexture>NEOs/Rimroids/smallmoon</expandingIconTexture>
 		<mapGenerator>MoonMap</mapGenerator>
 		<expandingIconPriority>6</expandingIconPriority>
 		<comps>
 			<li Class="WorldObjectCompProperties_Abandon" />
 		</comps>
-  	</WorldObjectDef>
+	</WorldObjectDef>
   
 	<WorldObjectDef>
 		<defName>GasMoon</defName>
 		<label>gas dwarf</label>
 		<description>An extremely rare celestial occurrance, a Gas Dwarf orbits this world just far enough not to be ripped to shreds by tidal forces...somehow...</description>
 		<worldObjectClass>ThatsAMoon.WorldObjectChild_Satellite</worldObjectClass>
-		<texture>UI/gassymoon</texture>
+		<texture>NEOs/Rimroids/gassymoon</texture>
 		<useDynamicDrawer>false</useDynamicDrawer>
 		<expandingIcon>true</expandingIcon>
-		<expandingIconTexture>UI/gassymoon</expandingIconTexture>
+		<expandingIconTexture>NEOs/Rimroids/gassymoon</expandingIconTexture>
+		<expandingIconPriority>6</expandingIconPriority>
+		<mapGenerator>MoonMap</mapGenerator>
+		<comps>
+			<li Class="WorldObjectCompProperties_Abandon" />
+		</comps>
+	</WorldObjectDef>
+  
+	<WorldObjectDef>
+		<defName>BrokenMoon</defName>
+		<label>destroyed moon</label>
+		<description>A ruin of a miniature moon, heavily bombarded by debris until its orbit was irrevocably altered, causing it to be pulled apart by tidal forces.</description>
+		<worldObjectClass>ThatsAMoon.WorldObjectChild_Satellite</worldObjectClass>
+		<texture>NEOs/Rimroids/destroyedmoon</texture>
+		<useDynamicDrawer>false</useDynamicDrawer>
+		<expandingIcon>true</expandingIcon>
+		<expandingIconTexture>NEOs/Rimroids/destroyedmoon</expandingIconTexture>
+		<expandingIconPriority>6</expandingIconPriority>
+		<mapGenerator>MoonMap</mapGenerator>
+		<comps>
+			<li Class="WorldObjectCompProperties_Abandon" />
+		</comps>
+	</WorldObjectDef>
+  
+	<WorldObjectDef>
+		<defName>AsteroidSatellite</defName>
+		<label>Active Moon</label>
+		<description>A moon with a high amount of surface activity.</description>
+		<worldObjectClass>ThatsAMoon.WorldObjectChild_Satellite</worldObjectClass>
+		<texture>NEOs/Rimroids/titan</texture>
+		<useDynamicDrawer>false</useDynamicDrawer>
+		<expandingIcon>true</expandingIcon>
+		<expandingIconTexture>NEOs/Rimroids/titan</expandingIconTexture>
 		<expandingIconPriority>6</expandingIconPriority>
 		<mapGenerator>MoonMap</mapGenerator>
 		<comps>
