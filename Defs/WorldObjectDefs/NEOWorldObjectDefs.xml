@@ -1,73 +1,70 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  
    <WorldObjectDef>
-    <defName>RockMoon</defName>
-    <label>small moon</label>
-    <description>One of what could be many, many moons orbiting this rimworld.</description>
-    <worldObjectClass>ThatsAMoon.WorldObjectChild_Satellite</worldObjectClass>
-    <texture>UI/smallmoon</texture>
-    <useDynamicDrawer>false</useDynamicDrawer>
-    <expandingIcon>true</expandingIcon>
-    <expandingIconTexture>UI/smallmoon</expandingIconTexture>
-	<mapGenerator>MoonMap</mapGenerator>
-    <expandingIconPriority>6</expandingIconPriority>
-	<comps>
-	  <li Class="WorldObjectCompProperties_Abandon" />
-     </comps>
-  </WorldObjectDef>
+		<defName>RockMoon</defName>
+		<label>small moon</label>
+		<description>One of what could be many, many moons orbiting this rimworld.</description>
+		<worldObjectClass>ThatsAMoon.WorldObjectChild_Satellite</worldObjectClass>
+		<texture>UI/smallmoon</texture>
+		<useDynamicDrawer>false</useDynamicDrawer>
+		<expandingIcon>true</expandingIcon>
+		<expandingIconTexture>UI/smallmoon</expandingIconTexture>
+		<mapGenerator>MoonMap</mapGenerator>
+		<expandingIconPriority>6</expandingIconPriority>
+		<comps>
+			<li Class="WorldObjectCompProperties_Abandon" />
+		</comps>
+  	</WorldObjectDef>
   
-  <WorldObjectDef>
-    <defName>GasMoon</defName>
-    <label>gas dwarf</label>
-    <description>An extremely rare celestial occurrance, a Gas Dwarf orbits this world just far enough not to be ripped to shreds by tidal forces...somehow...</description>
-    <worldObjectClass>ThatsAMoon.WorldObjectChild_Satellite</worldObjectClass>
-    <texture>UI/gassymoon</texture>
-    <useDynamicDrawer>false</useDynamicDrawer>
-    <expandingIcon>true</expandingIcon>
-    <expandingIconTexture>UI/gassymoon</expandingIconTexture>
-    <expandingIconPriority>6</expandingIconPriority>
-	<mapGenerator>MoonMap</mapGenerator>
-	<comps>
-	  <li Class="WorldObjectCompProperties_Abandon" />
-     </comps>
-  </WorldObjectDef>
+	<WorldObjectDef>
+		<defName>GasMoon</defName>
+		<label>gas dwarf</label>
+		<description>An extremely rare celestial occurrance, a Gas Dwarf orbits this world just far enough not to be ripped to shreds by tidal forces...somehow...</description>
+		<worldObjectClass>ThatsAMoon.WorldObjectChild_Satellite</worldObjectClass>
+		<texture>UI/gassymoon</texture>
+		<useDynamicDrawer>false</useDynamicDrawer>
+		<expandingIcon>true</expandingIcon>
+		<expandingIconTexture>UI/gassymoon</expandingIconTexture>
+		<expandingIconPriority>6</expandingIconPriority>
+		<mapGenerator>MoonMap</mapGenerator>
+		<comps>
+			<li Class="WorldObjectCompProperties_Abandon" />
+		</comps>
+	</WorldObjectDef>
   
-  <WorldObjectDef>
-    <defName>BrokenMoon</defName>
-    <label>destroyed moon</label>
-    <description>A ruin of a miniature moon, heavily bombarded by debris until its orbit was irrevocably altered, causing it to be pulled apart by tidal forces.</description>
-    <worldObjectClass>ThatsAMoon.WorldObjectChild_Satellite</worldObjectClass>
-    <texture>UI/destroyedmoon</texture>
-    <useDynamicDrawer>false</useDynamicDrawer>
-    <expandingIcon>true</expandingIcon>
-    <expandingIconTexture>UI/destroyedmoon</expandingIconTexture>
-    <expandingIconPriority>6</expandingIconPriority>
-	<mapGenerator>MoonMap</mapGenerator>
-	<comps>
-	  <li Class="WorldObjectCompProperties_Abandon" />
-     </comps>
-  </WorldObjectDef>
+	<WorldObjectDef>
+		<defName>BrokenMoon</defName>
+		<label>destroyed moon</label>
+		<description>A ruin of a miniature moon, heavily bombarded by debris until its orbit was irrevocably altered, causing it to be pulled apart by tidal forces.</description>
+		<worldObjectClass>ThatsAMoon.WorldObjectChild_Satellite</worldObjectClass>
+		<texture>UI/destroyedmoon</texture>
+		<useDynamicDrawer>false</useDynamicDrawer>
+		<expandingIcon>true</expandingIcon>
+		<expandingIconTexture>UI/destroyedmoon</expandingIconTexture>
+		<expandingIconPriority>6</expandingIconPriority>
+		<mapGenerator>MoonMap</mapGenerator>
+		<comps>
+			<li Class="WorldObjectCompProperties_Abandon" />
+		</comps>
+	</WorldObjectDef>
+	
+	<WorldObjectDef>
+		<defName>AsteroidSatellite</defName>
+		<label>Active Moon</label>
+		<description>A moon with a high amount of surface activity.</description>
+		<worldObjectClass>ThatsAMoon.WorldObjectChild_Satellite</worldObjectClass>
+		<texture>UI/titan</texture>
+		<useDynamicDrawer>false</useDynamicDrawer>
+		<expandingIcon>true</expandingIcon>
+		<expandingIconTexture>UI/titan</expandingIconTexture>
+		<expandingIconPriority>6</expandingIconPriority>
+		<mapGenerator>MoonMap</mapGenerator>
+		<comps>
+			<li Class="WorldObjectCompProperties_Abandon" />
+		</comps>
+	</WorldObjectDef>
   
-  <WorldObjectDef>
-    <defName>AsteroidSatellite</defName>
-    <label>Active Moon</label>
-    <description>A moon with a high amount of surface activity.</description>
-    <worldObjectClass>ThatsAMoon.WorldObjectChild_Satellite</worldObjectClass>
-    <texture>UI/titan</texture>
-    <useDynamicDrawer>false</useDynamicDrawer>
-    <expandingIcon>true</expandingIcon>
-    <expandingIconTexture>UI/titan</expandingIconTexture>
-    <expandingIconPriority>6</expandingIconPriority>
-	<mapGenerator>MoonMap</mapGenerator>
-	<comps>
-	  <li Class="WorldObjectCompProperties_Abandon" />
-     </comps>
-  </WorldObjectDef>
-  
-  
-  
-    <ThatsAMoon.SatelliteDef>
+	<ThatsAMoon.SatelliteDef>
 		<defName>SatelliteCore</defName>
 		<WorldObjectDefNames>
 			<li>AsteroidSatellite</li>
@@ -78,10 +75,5 @@
 		<orbitPeriod>60000</orbitPeriod>
 		<maxOrbits>(350,10,200)</maxOrbits> <!--(x,y,z) abs values of ellipse when crossing respective axis -->
 		<shiftOrbits>(20,20,20)</shiftOrbits><!--(x,y,z) abs values offsets of center of ellipse -->
-  </ThatsAMoon.SatelliteDef>
-  
-  
-  
-  
-  
+  	</ThatsAMoon.SatelliteDef>
 </Defs>

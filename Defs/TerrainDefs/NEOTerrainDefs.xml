@@ -1,135 +1,135 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<!-- (base) void -->
+	<!-- Lunar Surface -->
 	<TerrainDef Name="lunarSurface" ParentName="NaturalTerrainBase">
 		<defName>lunarSurface</defName>
 		<label>lunar surface</label>
 		<description>Lunar Surface.</description>
-	    <texturePath>Terrain/Surfaces/lunarSurfaceFine</texturePath>
-    <edgeType>FadeRough</edgeType>
-    <renderPrecedence>340</renderPrecedence>
-    <pathCost>2</pathCost>
-    <statBases>
-      <Beauty>0</Beauty>
-      <Cleanliness>-1</Cleanliness>
-    </statBases>
-    <affordances>
-      <li>Light</li>
-      <li>Medium</li>
-      <li>Heavy</li>
-      <li>Diggable</li>
-    </affordances>
-    <generatedFilth>Filth_Sand</generatedFilth>
-    <fertility>0.0</fertility>
-    <takeFootprints>True</takeFootprints>
+		<texturePath>Terrain/Surfaces/lunarSurfaceFine</texturePath>
+		<edgeType>FadeRough</edgeType>
+		<renderPrecedence>340</renderPrecedence>
+		<pathCost>2</pathCost>
+		<statBases>
+			<Beauty>0</Beauty>
+			<Cleanliness>-1</Cleanliness>
+		</statBases>
+		<affordances>
+			<li>Light</li>
+			<li>Medium</li>
+			<li>Heavy</li>
+			<li>Diggable</li>
+		</affordances>
+		<generatedFilth>Filth_Sand</generatedFilth>
+		<fertility>0.0</fertility>
+		<takeFootprints>True</takeFootprints>
 	</TerrainDef>
-
+  	<!-- Lunar Sand -->
 	<TerrainDef Name="lunarSand" ParentName="NaturalTerrainBase">
 		<defName>lunarSand</defName>
 		<label>lunar sand</label>
 		<description>Lunar Sand.</description>
-	    <texturePath>Terrain/Surfaces/lunarSurfaceRough</texturePath>
-    <edgeType>FadeRough</edgeType>
-    <renderPrecedence>350</renderPrecedence>
-    <pathCost>5</pathCost>
-    <statBases>
-      <Beauty>0</Beauty>
-      <Cleanliness>-2</Cleanliness>
-    </statBases>
-    <affordances>
-      <li>Light</li>
-      <li>Medium</li>
-    </affordances>
-    <generatedFilth>Filth_Sand</generatedFilth>
-    <fertility>0.0</fertility>
-    <takeFootprints>True</takeFootprints>
+		<texturePath>Terrain/Surfaces/lunarSurfaceRough</texturePath>
+		<edgeType>FadeRough</edgeType>
+		<renderPrecedence>350</renderPrecedence>
+		<pathCost>5</pathCost>
+		<statBases>
+			<Beauty>0</Beauty>
+			<Cleanliness>-2</Cleanliness>
+		</statBases>
+		<affordances>
+			<li>Light</li>
+			<li>Medium</li>
+		</affordances>
+		<generatedFilth>Filth_Sand</generatedFilth>
+		<fertility>0.0</fertility>
+		<takeFootprints>True</takeFootprints>
 	</TerrainDef>	
-	
+	<!-- Vacuum -->
 	<TerrainDef>
-    <defName>OpenSpace</defName>
-    <label>vacuum</label>
-    <texturePath>Terrain/Surfaces/space</texturePath>
-	<edgeType>FadeRough</edgeType>
-    <renderPrecedence>20</renderPrecedence>
-    <passability>Impassable</passability>
-    <pathCost>300</pathCost>
-    <changeable>false</changeable>
-    <filthAcceptanceMask>
-      <li>None</li>
-    </filthAcceptanceMask>
-    <fertility>0</fertility>
-    <avoidWander>true</avoidWander>
-	<holdSnow>false</holdSnow>
-	<affordances>
-      <li>Light</li>
-	  <li>Medium</li>
-      <li>Heavy</li>
-    </affordances>
-  </TerrainDef>
-
-  <TerrainDef Name="asteroidIceSmall" ParentName="NaturalTerrainBase">
+		<defName>OpenSpace</defName>
+		<label>vacuum</label>
+		<texturePath>Terrain/Surfaces/space</texturePath>
+		<edgeType>FadeRough</edgeType>
+		<renderPrecedence>20</renderPrecedence>
+		<passability>Impassable</passability>
+		<pathCost>300</pathCost>
+		<changeable>false</changeable>
+		<filthAcceptanceMask>
+			<li>None</li>
+		</filthAcceptanceMask>
+		<fertility>0</fertility>
+		<avoidWander>true</avoidWander>
+		<holdSnow>false</holdSnow>
+		<affordances>
+			<li>Light</li>
+			<li>Medium</li>
+			<li>Heavy</li>
+		</affordances>
+  	</TerrainDef>
+  	<!-- Asteroid (Ice/Small) -->
+  	<TerrainDef Name="asteroidIceSmall" ParentName="NaturalTerrainBase">
 		<defName>asteroidIceSmall</defName>
 		<label>asteroid ice</label>
 		<description>Asteroid covered in small amounts of ice.</description>
 		<texturePath>Terrain/Surfaces/asteroidIce</texturePath>
-    <edgeType>FadeRough</edgeType>
-    <renderPrecedence>340</renderPrecedence>
-    <pathCost>2</pathCost>
-    <statBases>
-      <Beauty>0</Beauty>
-      <Cleanliness>-1</Cleanliness>
-    </statBases>
-    <affordances>
-      <li>Light</li>
-      <li>Medium</li>
-      <li>Heavy</li>
-      <li>Diggable</li>
-    </affordances>
-    <fertility>0.0</fertility>
-    <takeFootprints>True</takeFootprints>
+		<edgeType>FadeRough</edgeType>
+		<renderPrecedence>340</renderPrecedence>
+		<pathCost>2</pathCost>
+		<statBases>
+			<Beauty>0</Beauty>
+			<Cleanliness>-1</Cleanliness>
+		</statBases>
+		<affordances>
+			<li>Light</li>
+			<li>Medium</li>
+			<li>Heavy</li>
+			<li>Diggable</li>
+		</affordances>
+		<fertility>0.0</fertility>
+		<takeFootprints>True</takeFootprints>
 	</TerrainDef>
-
-  <TerrainDef Name="asteroidIceMedium" ParentName="NaturalTerrainBase">
+  	<!-- Asteroid (Ice/Medium) -->
+  	<TerrainDef Name="asteroidIceMedium" ParentName="NaturalTerrainBase">
 		<defName>asteroidIceMedium</defName>
 		<label>asteroid ice medium</label>
 		<description>Asteroid coverd in ice.</description>
 		<texturePath>Terrain/Surfaces/asteroidIcePlus</texturePath>
-    <edgeType>FadeRough</edgeType>
-    <renderPrecedence>340</renderPrecedence>
-    <pathCost>2</pathCost>
-    <statBases>
-      <Beauty>0</Beauty>
-      <Cleanliness>-1</Cleanliness>
-    </statBases>
-    <affordances>
-      <li>Light</li>
-      <li>Medium</li>
-      <li>Heavy</li>
-      <li>Diggable</li>
-    </affordances>
-    <fertility>0.0</fertility>
-    <takeFootprints>True</takeFootprints>
+		<edgeType>FadeRough</edgeType>
+		<renderPrecedence>340</renderPrecedence>
+		<pathCost>2</pathCost>
+		<statBases>
+			<Beauty>0</Beauty>
+			<Cleanliness>-1</Cleanliness>
+		</statBases>
+		<affordances>
+			<li>Light</li>
+			<li>Medium</li>
+			<li>Heavy</li>
+			<li>Diggable</li>
+		</affordances>
+		<fertility>0.0</fertility>
+		<takeFootprints>True</takeFootprints>
 	</TerrainDef>
-
-  <TerrainDef Name="asteroidIceHigh" ParentName="NaturalTerrainBase">
+  	<!-- Asteroid (Ice/High) -->
+  	<TerrainDef Name="asteroidIceHigh" ParentName="NaturalTerrainBase">
 		<defName>asteroidIceHigh</defName>
 		<label>asteroid ice high</label>
 		<description>Asteroid coverd in high amounts of ice</description>
 		<texturePath>Terrain/Surfaces/asteroidIcePluPlus</texturePath>
-    <edgeType>FadeRough</edgeType>
-    <renderPrecedence>340</renderPrecedence>
-    <pathCost>2</pathCost>
-    <statBases>
-      <Beauty>0</Beauty>
-      <Cleanliness>-1</Cleanliness>
-    </statBases>
-    <affordances>
-      <li>Light</li>
-      <li>Medium</li>
-      <li>Heavy</li>
-      <li>Diggable</li>
-    </affordances>
-    <fertility>0.0</fertility>
-    <takeFootprints>True</takeFootprints>
+		<edgeType>FadeRough</edgeType>
+		<renderPrecedence>340</renderPrecedence>
+		<pathCost>2</pathCost>
+		<statBases>
+			<Beauty>0</Beauty>
+			<Cleanliness>-1</Cleanliness>
+		</statBases>
+		<affordances>
+			<li>Light</li>
+			<li>Medium</li>
+			<li>Heavy</li>
+			<li>Diggable</li>
+		</affordances>
+		<fertility>0.0</fertility>
+		<takeFootprints>True</takeFootprints>
 	</TerrainDef>
 </Defs>

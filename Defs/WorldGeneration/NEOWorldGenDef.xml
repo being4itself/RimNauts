@@ -1,10 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-  <WorldGenStepDef>
-    <defName>Moons</defName>
-    <order>700</order>
-    <worldGenStep Class="ThatsAMoon.WorldGenStep_Moons"/>
-  </WorldGenStepDef>
-
+	<WorldGenStepDef>
+		<defName>Moons</defName>
+		<order>700</order>
+		<worldGenStep Class="ThatsAMoon.WorldGenStep_Moons"/>
+	</WorldGenStepDef>
 </Defs>
