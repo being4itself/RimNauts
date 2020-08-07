@@ -34,8 +34,8 @@
 		<baseWeatherCommonalities>
 			<Clear>1</Clear>
 		</baseWeatherCommonalities>
-		<wildPlants></wildPlants>
-		<wildAnimals></wildAnimals>
-		<allowedPackAnimals></allowedPackAnimals>
+		<wildPlants><!-- nothing --></wildPlants>
+		<wildAnimals><!-- nothing --></wildAnimals>
+		<allowedPackAnimals><!-- nothing --></allowedPackAnimals>
   	</BiomeDef>
 </Defs>
