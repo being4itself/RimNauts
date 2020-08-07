@@ -4,12 +4,28 @@
 	<ThatsAMoon.TileSetterDef>
 		<defName>testTileSetter</defName>
 		<biomeDef>RockMoonBiome</biomeDef>
-		<!--Pairs>
+		<Pairs>
 			<li>
-				<targetDef>Sand</targetDef>
-				<swapDef>Soil</swapDef>
+				<targetDef>Sandstone_Rough</targetDef>
+				<swapDef>BiomesNEO_MoonstoneRock_Rough</swapDef>
 			</li>
-		</Pairs-->
+			<li>
+				<targetDef>Marble_Rough</targetDef>
+				<swapDef>BiomesNEO_MoonstoneRock_Rough</swapDef>
+			</li>
+			<li>
+				<targetDef>Granite_Rough</targetDef>
+				<swapDef>BiomesNEO_MoonstoneRock_Rough</swapDef>
+			</li>			
+			<li>
+				<targetDef>Slate_Rough</targetDef>
+				<swapDef>BiomesNEO_BasaltRock_Rough</swapDef>
+			</li>	
+			<li>
+				<targetDef>Limestone_Rough</targetDef>
+				<swapDef>BiomesNEO_BasaltRock_Rough</swapDef>
+			</li>	
+		</Pairs>
 		<thingPairs>
 			<li>
 				<targetDef>Sandstone</targetDef>
@@ -25,17 +41,12 @@
 			</li>			
 			<li>
 				<targetDef>Slate</targetDef>
-				<swapDef>BiomesNEO_MoonstoneRock</swapDef>
+				<swapDef>BiomesNEO_BasaltRock</swapDef>
 			</li>	
 			<li>
 				<targetDef>Limestone</targetDef>
-				<swapDef>BiomesNEO_MoonstoneRock</swapDef>
-			</li>		
-		</thingPairs>		
-		
-		
+				<swapDef>BiomesNEO_BasaltRock</swapDef>
+			</li>
+		</thingPairs>				
 	</ThatsAMoon.TileSetterDef>
-
-
-
 </Defs>
