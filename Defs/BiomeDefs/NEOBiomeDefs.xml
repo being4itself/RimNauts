@@ -30,7 +30,7 @@
         <max>999</max>
       </li>
     </terrainsByFertility>
-		<texture>World/Biomes/lunarSurface</texture>
+		<texture>Terrain/Surfaces/lunarSurfaceRough</texture>
     <baseWeatherCommonalities>
       <Clear>1</Clear>
     </baseWeatherCommonalities>
