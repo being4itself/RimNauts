@@ -64,38 +64,6 @@
 		</comps>
 	</WorldObjectDef>
   
-	<WorldObjectDef>
-		<defName>BrokenMoon</defName>
-		<label>destroyed moon</label>
-		<description>A ruin of a miniature moon, heavily bombarded by debris until its orbit was irrevocably altered, causing it to be pulled apart by tidal forces.</description>
-		<worldObjectClass>ThatsAMoon.WorldObjectChild_Satellite</worldObjectClass>
-		<texture>UI/destroyedmoon</texture>
-		<useDynamicDrawer>false</useDynamicDrawer>
-		<expandingIcon>true</expandingIcon>
-		<expandingIconTexture>UI/destroyedmoon</expandingIconTexture>
-		<expandingIconPriority>6</expandingIconPriority>
-		<mapGenerator>MoonMap</mapGenerator>
-		<comps>
-			<li Class="WorldObjectCompProperties_Abandon" />
-		</comps>
-	</WorldObjectDef>
-	
-	<WorldObjectDef>
-		<defName>AsteroidSatellite</defName>
-		<label>Active Moon</label>
-		<description>A moon with a high amount of surface activity.</description>
-		<worldObjectClass>ThatsAMoon.WorldObjectChild_Satellite</worldObjectClass>
-		<texture>UI/titan</texture>
-		<useDynamicDrawer>false</useDynamicDrawer>
-		<expandingIcon>true</expandingIcon>
-		<expandingIconTexture>UI/titan</expandingIconTexture>
-		<expandingIconPriority>6</expandingIconPriority>
-		<mapGenerator>MoonMap</mapGenerator>
-		<comps>
-			<li Class="WorldObjectCompProperties_Abandon" />
-		</comps>
-	</WorldObjectDef>
-  
 	<ThatsAMoon.SatelliteDef>
 		<defName>SatelliteCore</defName>
 		<WorldObjectDefNames>
