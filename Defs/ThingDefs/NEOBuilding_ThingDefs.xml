@@ -124,14 +124,14 @@
 		<graphicData>
 			<texPath>Things/Items/SatelliteDish</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(8,9)</drawSize>
+			<drawSize>(8,7)</drawSize>
 			<drawRotated>false</drawRotated>
 			<shadowData>
-				<volume>(0.3, 0.7, 0.3)</volume>
-				<offset>(-0.03,0,-0.35)</offset>
+				<volume>(1, 1, 1.5)</volume>
+				<offset>(1,0,-2)</offset>
 			</shadowData>
 		</graphicData>
-		<size>(7,9)</size>
+		<size>(8,7)</size>
 		<canBeUsedUnderRoof>false</canBeUsedUnderRoof>
 		<fillPercent>0.15</fillPercent>
 		<altitudeLayer>Building</altitudeLayer>
