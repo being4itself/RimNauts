@@ -50,25 +50,25 @@
  
    <WorldObjectDef>
     <defName>Junk5</defName>
-    <label>space junk</label>
-    <description>A random piece of space debris.</description>
+    <label>space junk1</label>
+    <description>A random piece of space junk.</description>
     <worldObjectClass>ThatsAMoon.WorldObjectChild_Satellite</worldObjectClass>
-    <texture>NEOs/Junk/Bship4</texture>
+    <texture>NEOs/Junk/Chunks_Gold_outlineless</texture>
     <useDynamicDrawer>false</useDynamicDrawer>
     <expandingIcon>true</expandingIcon>
-    <expandingIconTexture>NEOs/Junk/Bship4</expandingIconTexture>
+    <expandingIconTexture>NEOs/Junk/Junk1</expandingIconTexture>
     <expandingIconPriority>6</expandingIconPriority>
   </WorldObjectDef>   
 
    <WorldObjectDef>
     <defName>Junk6</defName>
-    <label>space junk</label>
+    <label>space junk2</label>
     <description>A random piece of space debris.</description>
     <worldObjectClass>ThatsAMoon.WorldObjectChild_Satellite</worldObjectClass>
-    <texture>NEOs/Junk/Bship5</texture>
+    <texture>NEOs/Junk/Chunks_Gold_outlineless</texture>
     <useDynamicDrawer>false</useDynamicDrawer>
     <expandingIcon>true</expandingIcon>
-    <expandingIconTexture>NEOs/Junk/Bship5</expandingIconTexture>
+    <expandingIconTexture>NEOs/Junk/Junk</expandingIconTexture>
     <expandingIconPriority>6</expandingIconPriority>
   </WorldObjectDef>  
 
@@ -97,7 +97,7 @@
   </WorldObjectDef>   
   
    <WorldObjectDef>
-    <defName>Junk8</defName>
+    <defName>Junk9</defName>
     <label>space junk</label>
     <description>A random piece of space debris.</description>
     <worldObjectClass>ThatsAMoon.WorldObjectChild_Satellite</worldObjectClass>
