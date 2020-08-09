@@ -82,6 +82,9 @@
         <WorkToBuild>5.5</WorkToBuild>
         <WorkToMake>1.15</WorkToMake>
       </statFactors>
+      <statOffsets>
+        <Beauty>2</Beauty>
+      </statOffsets>
 			<commonality>0</commonality>
 		</stuffProps>
 	</ThingDef>
@@ -216,6 +219,9 @@
         <WorkToBuild>5.5</WorkToBuild>
         <WorkToMake>1.15</WorkToMake>
       </statFactors>
+      <statOffsets>
+        <Beauty>1</Beauty>
+      </statOffsets>
 			<commonality>0</commonality>
 		</stuffProps>
 	</ThingDef>
