@@ -46,9 +46,6 @@
 		<label>moonstone chunk</label>
 		<graphicData>
 			<color>(210,210,210)</color>
-			<texPath>Things/Rocks</texPath>
-			<graphicClass>Graphic_Random</graphicClass>
-			<flipExtraRotation>80</flipExtraRotation>
 		</graphicData>
 		<statBases>
 			<Mass>11</Mass>
@@ -183,9 +180,6 @@
 		<label>basalt chunk</label>
 		<graphicData>
 			<color>(74,67,59)</color>
-			<texPath>Things/Rocks</texPath>
-			<graphicClass>Graphic_Random</graphicClass>
-			<flipExtraRotation>80</flipExtraRotation>
 		</graphicData>
 		<statBases>
 			<Mass>11</Mass>
