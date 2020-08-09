@@ -7,9 +7,9 @@
 		<description>A fueling port for launching rockets to the moon.</description>
 
 		<graphicData>
-			<texPath>Things/Items/LaunchPad</texPath>
+			<texPath>Things/Items/LaunchPadTest</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(6,8)</drawSize>
+			<drawSize>(11,8)</drawSize>
 		</graphicData>
 		<size>(1,6)</size>
 		<rotatable>false</rotatable>
@@ -84,6 +84,11 @@
 		<fillPercent>0.5</fillPercent>
 		<designationCategory>Misc</designationCategory>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+
+		<building>
+			<!--Stops it from destroying the launchpad-->
+			<isEdifice>false</isEdifice>
+		</building>
 
 		<statBases>
 			<MaxHitPoints>250</MaxHitPoints>

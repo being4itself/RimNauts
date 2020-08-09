@@ -11,6 +11,7 @@
 		</graphicData>
 		<statBases>
 			<MaxHitPoints>400</MaxHitPoints>
+			<Beauty>3</Beauty>
 		</statBases>
 		<building>
 			<mineableThing>BiomesNEO_ChunkMoonstone</mineableThing>
@@ -28,8 +29,8 @@
 			<color>(210,210,210)</color>
 		</graphicData>
 		<statBases>
-			<Beauty>1</Beauty>
-			<MarketValue>15</MarketValue>
+			<MarketValue>35</MarketValue>
+			<Beauty>5</Beauty>
 		</statBases>
 		<building>
 			<isNaturalRock>false</isNaturalRock>
@@ -45,12 +46,10 @@
 		<label>moonstone chunk</label>
 		<graphicData>
 			<color>(210,210,210)</color>
-			<texPath>Things/Rocks</texPath>
-			<graphicClass>Graphic_Random</graphicClass>
-			<flipExtraRotation>80</flipExtraRotation>
 		</graphicData>
 		<statBases>
-			<Mass>22</Mass>
+			<Mass>11</Mass>
+			<Beauty>4</Beauty>
 		</statBases>
 		<soundDrop>ChunkRock_Drop</soundDrop>
 		<butcherProducts>
@@ -74,9 +73,15 @@
 			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
 			<stuffAdjective>moonstone</stuffAdjective>
-			<statFactors>
-				<MaxHitPoints>1.2</MaxHitPoints>
-			</statFactors>
+      <statFactors>
+        <Beauty>2</Beauty>
+        <MaxHitPoints>1.2</MaxHitPoints>
+        <WorkToBuild>5.5</WorkToBuild>
+        <WorkToMake>1.15</WorkToMake>
+      </statFactors>
+      <statOffsets>
+        <Beauty>2</Beauty>
+      </statOffsets>
 			<commonality>0</commonality>
 		</stuffProps>
 	</ThingDef>
@@ -109,6 +114,9 @@
 		<defName>BiomesNEO_TileMoonstone</defName>
 		<label>moonstone tile</label>
 		<color>(210,210,210)</color>
+    <statBases>
+      <Beauty>3</Beauty>
+    </statBases>
 		<costList>
 			<BiomesNEO_BlocksMoonstone>4</BiomesNEO_BlocksMoonstone>
 		</costList>
@@ -118,6 +126,9 @@
 		<defName>BiomesNEO_FlagstoneMoonstone</defName>
 		<label>moonstone flagstone</label>
 		<color>(210,210,210)</color>
+    <statBases>
+      <Beauty>2</Beauty>
+    </statBases>
 		<costList>
 			<BiomesNEO_BlocksMoonstone>4</BiomesNEO_BlocksMoonstone>
 		</costList>
@@ -134,6 +145,7 @@
 		</graphicData>
 		<statBases>
 			<MaxHitPoints>800</MaxHitPoints>
+			<Beauty>2</Beauty>
 		</statBases>
 		<building>
 			<mineableThing>BiomesNEO_ChunkBasalt</mineableThing>
@@ -151,8 +163,8 @@
 			<color>(74,67,59)</color>
 		</graphicData>
 		<statBases>
-			<Beauty>1</Beauty>
-			<MarketValue>15</MarketValue>
+			<MarketValue>45</MarketValue>
+			<Beauty>4</Beauty>
 		</statBases>
 		<building>
 			<isNaturalRock>false</isNaturalRock>
@@ -168,12 +180,10 @@
 		<label>basalt chunk</label>
 		<graphicData>
 			<color>(74,67,59)</color>
-			<texPath>Things/Rocks</texPath>
-			<graphicClass>Graphic_Random</graphicClass>
-			<flipExtraRotation>80</flipExtraRotation>
 		</graphicData>
 		<statBases>
-			<Mass>22</Mass>
+			<Mass>11</Mass>
+			<Beauty>3</Beauty>
 		</statBases>
 		<soundDrop>ChunkRock_Drop</soundDrop>
 		<butcherProducts>
@@ -197,9 +207,15 @@
 			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
 			<stuffAdjective>Basalt</stuffAdjective>
-			<statFactors>
-				<MaxHitPoints>1.2</MaxHitPoints>
-			</statFactors>
+      <statFactors>
+        <Beauty>1</Beauty>
+        <MaxHitPoints>2</MaxHitPoints>
+        <WorkToBuild>5.5</WorkToBuild>
+        <WorkToMake>1.15</WorkToMake>
+      </statFactors>
+      <statOffsets>
+        <Beauty>1</Beauty>
+      </statOffsets>
 			<commonality>0</commonality>
 		</stuffProps>
 	</ThingDef>
@@ -232,6 +248,9 @@
 		<defName>BiomesNEO_TileBasalt</defName>
 		<label>basalt tile</label>
 		<color>(74,67,59)</color>
+    <statBases>
+      <Beauty>2</Beauty>
+    </statBases>
 		<costList>
 			<BiomesNEO_BlocksBasalt>4</BiomesNEO_BlocksBasalt>
 		</costList>
@@ -241,6 +260,9 @@
 		<defName>BiomesNEO_FlagstoneBasalt</defName>
 		<label>basalt flagstone</label>
 		<color>(74,67,59)</color>
+    <statBases>
+      <Beauty>1</Beauty>
+    </statBases>
 		<costList>
 			<BiomesNEO_BlocksBasalt>4</BiomesNEO_BlocksBasalt>
 		</costList>

@@ -9,6 +9,12 @@
 		<useDynamicDrawer>false</useDynamicDrawer>
 		<expandingIcon>true</expandingIcon>
 		<expandingIconTexture>NEOs/Rimroids/smallmoon</expandingIconTexture>
+    <IncidentTargetTags>
+      <li>Map_PlayerHome</li>
+      <li>Map_TempIncident</li>
+      <li>Map_Misc</li>
+      <li>Map_RaidBeacon</li>
+    </IncidentTargetTags>
 		<mapGenerator>MoonMap</mapGenerator>
 		<expandingIconPriority>6</expandingIconPriority>
 		<comps>
@@ -16,7 +22,7 @@
 		</comps>
 	</WorldObjectDef>
   
-	<WorldObjectDef>
+	<!--WorldObjectDef>
 		<defName>GasMoon</defName>
 		<label>gas dwarf</label>
 		<description>An extremely rare celestial occurrance, a Gas Dwarf orbits this world just far enough not to be ripped to shreds by tidal forces...somehow...</description>
@@ -62,15 +68,12 @@
 		<comps>
 			<li Class="WorldObjectCompProperties_Abandon" />
 		</comps>
-	</WorldObjectDef>
+	</WorldObjectDef-->
   
 	<ThatsAMoon.SatelliteDef>
 		<defName>SatelliteCore</defName>
 		<WorldObjectDefNames>
-			<li>AsteroidSatellite</li>
 			<li>RockMoon</li>
-			<li>GasMoon</li>
-			<li>BrokenMoon</li>
 		</WorldObjectDefNames>
 		<orbitPeriod>60000</orbitPeriod>
 		<maxOrbits>(350,10,200)</maxOrbits> <!--(x,y,z) abs values of ellipse when crossing respective axis -->
