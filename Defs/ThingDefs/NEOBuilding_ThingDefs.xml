@@ -181,7 +181,7 @@
 		<label>crater 12</label>
 		<description>Huge crater.</description>
 		<graphicData>	
-			<texPath>Things/Dev/crater</texPath>
+			<texPath>Things/Dev/craterdif</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(12,12)</drawSize>
 			<shadowData>
@@ -208,7 +208,7 @@
 		<label>crater 10</label>
 		<description>Huge crater.</description>
 		<graphicData>	
-			<texPath>Things/Dev/crater</texPath>
+			<texPath>Things/Dev/craterdif</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(10,10)</drawSize>
 			<shadowData>
@@ -235,7 +235,7 @@
 		<label>crater 8</label>
 		<description>Huge crater.</description>
 		<graphicData>	
-			<texPath>Things/Dev/crater</texPath>
+			<texPath>Things/Dev/craterdif</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(8,8)</drawSize>
 			<shadowData>
@@ -262,7 +262,7 @@
 		<label>crater 6</label>
 		<description>Huge crater.</description>
 		<graphicData>	
-			<texPath>Things/Dev/crater</texPath>
+			<texPath>Things/Dev/craterdif</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(6,6)</drawSize>
 			<shadowData>
@@ -289,7 +289,7 @@
 		<label>crater 4</label>
 		<description>Huge crater.</description>
 		<graphicData>	
-			<texPath>Things/Dev/crater</texPath>
+			<texPath>Things/Dev/craterdif</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(4,4)</drawSize>
 			<shadowData>
