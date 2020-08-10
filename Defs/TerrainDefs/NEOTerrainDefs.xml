@@ -132,4 +132,20 @@
 		<fertility>0.0</fertility>
 		<takeFootprints>True</takeFootprints>
 	</TerrainDef>
+	<!-- Lava -->
+	<TerrainDef ParentName="WaterShallowBase">
+		<defName>lava</defName>
+		<label>lava</label>
+		<description>Active lava.</description>
+		<renderPrecedence>395</renderPrecedence>
+		<passability>Standable</passability>
+		<texturePath>Terrain/Surfaces/lava</texturePath>
+		<waterDepthShader>Map/WaterDepth</waterDepthShader>
+		<terrainAffordanceNeeded>Diggable</terrainAffordanceNeeded>
+		<driesTo>Soil</driesTo>
+		<statBases>
+			<Beauty>0</Beauty>
+		</statBases>
+		<fertility>0.0</fertility>
+	</TerrainDef>
 </Defs>
