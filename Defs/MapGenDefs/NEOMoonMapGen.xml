@@ -15,8 +15,8 @@
 		</genSteps>
 	</MapGeneratorDef>
 	<GenStepDef>
-	<defName>Crater</defName>
-	<order>1001</order>
-	<genStep Class="ThatsAMoon.GenStep_Crater" />
+		<defName>Crater</defName>
+		<order>1001</order>
+		<genStep Class="ThatsAMoon.GenStep_Crater" />
 	</GenStepDef>
 </Defs>

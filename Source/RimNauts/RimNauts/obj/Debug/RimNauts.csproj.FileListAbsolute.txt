@@ -1,0 +1,3 @@
+S:\SteamLibrary\steamapps\common\RimWorld\Mods\RimNauts\Source\RimNauts\RimNauts\obj\Debug\RimNauts.csprojAssemblyReference.cache
+S:\SteamLibrary\steamapps\common\RimWorld\Mods\RimNauts\Assemblies\ThatsAMoon.dll
+S:\SteamLibrary\steamapps\common\RimWorld\Mods\RimNauts\Source\RimNauts\RimNauts\obj\Debug\ThatsAMoon.dll

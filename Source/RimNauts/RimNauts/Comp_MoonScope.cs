@@ -46,7 +46,7 @@ namespace ThatsAMoon
                 Find.MapUI.Notify_SwitchedMap();
             }
             Current.Game.GetComponent<Gamecomp_SatellitesInOrbit>().updateSatellites();
-            Find.LetterStack.ReceiveLetter("Look at that moon!", "You can clearly see the surface of the moon with the telescope. Imagine visiting such a place!", LetterDefOf.NeutralEvent, null);
+            Find.LetterStack.ReceiveLetter("To the moon!", "Your settlement have found a good place to land on the moon. Build a spaceship and explore!", LetterDefOf.NeutralEvent, null);
         }
 
         // Token: 0x0600002B RID: 43 RVA: 0x000034A4 File Offset: 0x000016A4
@@ -81,7 +81,7 @@ namespace ThatsAMoon
                 }
             }
             Current.Game.GetComponent<Gamecomp_SatellitesInOrbit>().updateSatellites();
-            Find.LetterStack.ReceiveLetter("Look at that moon!", "You can clearly see the surface of the moon with the telescope. Imagine visiting such a place!", LetterDefOf.NeutralEvent, null);
+            Find.LetterStack.ReceiveLetter("To the moon!", "Your settlement have found a good place to land on the moon. Build a spaceship and explore!", LetterDefOf.NeutralEvent, null);
         }
 
         // Token: 0x0600002C RID: 44 RVA: 0x00003590 File Offset: 0x00001790
@@ -99,9 +99,9 @@ namespace ThatsAMoon
             {
                 yield return new Command_Action
                 {
-                    defaultLabel = "Look at the Moon!",
+                    defaultLabel = "Small Moon",
                     icon = ContentFinder<Texture2D>.Get("UI/teleIcon", true),
-                    defaultDesc = "Look at the moon's surface through the refracting telescope.",
+                    defaultDesc = "You see a tiny barren moon among the other space debris, Check for a good place to land!",
                     action = new Action(this.lookAtMoon)
                 };
             }
