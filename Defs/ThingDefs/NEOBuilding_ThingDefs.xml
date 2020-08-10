@@ -175,4 +175,32 @@
 			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
 		</placeWorkers>
 	</ThingDef>
+	<!-- Crater Props -->
+	<ThingDef ParentName="BuildingBase">
+		<defName>crater</defName>
+		<label>crater</label>
+		<description>crater</description>
+		<graphicData>	
+			<texPath>Things/Dev/crater</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(10,10)</drawSize>
+			<shadowData>
+				<volume>(1, 1, 1)</volume>
+			</shadowData>
+		</graphicData>
+		<tickerType>Normal</tickerType>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<castEdgeShadows>False</castEdgeShadows>
+		<blockWind>false</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<statBases>
+			<MaxHitPoints>1000</MaxHitPoints>
+		</statBases>
+		<size>(10,10)</size>
+		<costList>
+			<Steel>150</Steel>
+		</costList>
+  	</ThingDef>
 </Defs>
