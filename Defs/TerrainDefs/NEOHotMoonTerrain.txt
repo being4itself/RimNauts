@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!-- Hot Moon -->
-<!--Defs>
+<Defs>
 <TerrainDef Name="NEO_crushedpum" ParentName="NaturalTerrainBase">
 	<defName>NEO_crushedpum</defName>
 	<label>crushed pumice</label>
@@ -70,4 +70,4 @@
     </tags>
   </ActiveTerrain.SpecialTerrain>	
 
-</Defs-->
+</Defs>

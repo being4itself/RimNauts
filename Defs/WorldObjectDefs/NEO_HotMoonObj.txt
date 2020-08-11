@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Defs>
+<Defs>
 	<WorldObjectDef>
 		<defName>HotMoon</defName>
 		<label>hot moon</label>
@@ -15,4 +15,4 @@
 			<li Class="WorldObjectCompProperties_Abandon" />
 		</comps>
 	</WorldObjectDef>
-	</Defs-->
+	</Defs>
