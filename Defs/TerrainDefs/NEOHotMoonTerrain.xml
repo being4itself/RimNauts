@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Hot Moon -->
+<!--Defs>
+<TerrainDef Name="NEO_crushedpum" ParentName="NaturalTerrainBase">
+	<defName>NEO_crushedpum</defName>
+	<label>crushed pumice</label>
+	<description>Lava rock that has been crushed into a dark sand.</description>
+	<texturePath>Terrain/Surfaces/asteroidIce</texturePath>
+	<edgeType>FadeRough</edgeType>
+	<renderPrecedence>340</renderPrecedence>
+	<pathCost>2</pathCost>
+	<statBases>
+		<Beauty>0</Beauty>
+		<Cleanliness>-2</Cleanliness>
+	</statBases>
+	<affordances>
+		<li>Light</li>
+		<li>Medium</li>
+		<li>Diggable</li>
+	</affordances>
+	<fertility>0.0</fertility>
+	<takeFootprints>True</takeFootprints>
+</TerrainDef>
+	
+<TerrainDef Name="NEO_lightash" ParentName="NaturalTerrainBase">
+	<defName>NEO_lightash</defName>
+	<label>light ash</label>
+	<description>a fine powder of white ash that has accumulated into great banks, hills, and even mountains.</description>
+	<texturePath>Terrain/Surfaces/asteroidIce</texturePath>
+	<edgeType>FadeRough</edgeType>
+	<renderPrecedence>340</renderPrecedence>
+	<pathCost>2</pathCost>
+	<statBases>
+		<Beauty>0</Beauty>
+		<Cleanliness>-3</Cleanliness>
+	</statBases>
+	<affordances>
+		<li>Light</li>
+	</affordances>
+	<fertility>0.0</fertility>
+	<takeFootprints>True</takeFootprints>
+</TerrainDef>
+	
+  <ActiveTerrain.SpecialTerrain>
+    <defName>NEO_MoltenLiquid</defName>
+    <label>molten liquid</label>
+    <terrainInstanceClass>ActiveTerrain.TerrainInstance</terrainInstanceClass>
+    <texturePath>/TerrainSurfaces/Lava</texturePath>
+    <edgeType>FadeRough</edgeType>
+    <renderPrecedence>395</renderPrecedence>
+    <pathCost>300</pathCost>
+    <passability>Impassable</passability>
+    <fertility>0</fertility>
+    <avoidWander>true</avoidWander>
+    <terrainComps>
+      <li Class="ActiveTerrain.TerrainCompProperties_HeatPush">
+        <pushAmount>1000</pushAmount>
+      </li>
+      <li Class="ActiveTerrain.TerrainCompProperties_Glower">
+        <overlightRadius>0</overlightRadius>
+        <glowRadius>5</glowRadius>
+        <powered>false</powered>
+      </li>
+    </terrainComps>
+    <changeable>false</changeable>
+    <holdSnow>false</holdSnow>
+    <takeSplashes>true</takeSplashes>
+    <tags>
+      <li>Lava</li>
+    </tags>
+  </ActiveTerrain.SpecialTerrain>	
+
+</Defs-->
