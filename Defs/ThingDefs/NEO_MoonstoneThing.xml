@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<!-- (Base) Moonstone -->
+	<!-- (Base) Lunar Stone -->
 	<ThingDef ParentName="UglyRockBase" Name="BiomesNEO_MoonstoneRockBase">
 		<defName>BiomesNEO_MoonstoneRock</defName>
-		<label>moonstone</label>
+		<label>lunar highland rock</label>
 		<generateCommonality>0</generateCommonality>
-		<description>A chunk of Moonstone.</description>
+		<description>The Highlands rocks are largely Anorthosite, which is a kind of igneous rock that forms when lava cools more slowly.</description>
 		<graphicData>
 			<color>(210,210,210)</color>
 		</graphicData>
@@ -22,7 +22,7 @@
 	<!-- Smooth Moonstone -->
 	<ThingDef ParentName="BiomesNEO_MoonstoneRockBase">
 		<defName>BiomesNEO_SmoothedMoonstone</defName>
-		<label>smoothed moonstone</label>
+		<label>smoothed highland rock</label>
 		<description>Smoothed and polished moonstone</description>
 		<graphicData>
 			<texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
@@ -43,7 +43,7 @@
 	<!-- Moonstone Chunk-->
 	<ThingDef ParentName="ChunkRockBase">
 		<defName>BiomesNEO_ChunkMoonstone</defName>
-		<label>moonstone chunk</label>
+		<label>lunar highland chunk</label>
 		<graphicData>
 			<color>(210,210,210)</color>
 		</graphicData>
@@ -59,8 +59,8 @@
 	<!-- Moonstone Blocks -->
 	<ThingDef ParentName="StoneBlocksBase">
 		<defName>BiomesNEO_BlocksMoonstone</defName>
-		<label>moonstone blocks</label>
-		<description>Blocks of solid moonstone.</description>
+		<label>lunar highland blocks</label>
+		<description>Blocks of solid lunar highland.</description>
 		<graphicData>
 			<color>(210,210,210)</color>
 		</graphicData>
@@ -88,8 +88,8 @@
 	<!-- Moonstone Blocks order -->
 	<RecipeDef ParentName="MakeStoneBlocksBase">
 		<defName>BiomesNEO_Make_StoneBlocksMoonstone</defName>
-		<label>make moonstone blocks</label>
-		<description>Cuts moonstone chunks into usable blocks.</description>
+		<label>make lunar highland blocks</label>
+		<description>Cuts lunar highland chunks into usable blocks.</description>
 		<ingredients>
 			<li>
 				<filter>
@@ -112,7 +112,7 @@
 	<!-- Moonstone Tiles -->
 	<TerrainDef ParentName="TileStoneBase">
 		<defName>BiomesNEO_TileMoonstone</defName>
-		<label>moonstone tile</label>
+		<label>lunar highland tile</label>
 		<color>(210,210,210)</color>
     <statBases>
       <Beauty>3</Beauty>
@@ -124,7 +124,7 @@
 	<!-- Moonstone Flagstone -->
 	<TerrainDef ParentName="FlagstoneBase">
 		<defName>BiomesNEO_FlagstoneMoonstone</defName>
-		<label>moonstone flagstone</label>
+		<label>lunar highland flagstone</label>
 		<color>(210,210,210)</color>
     <statBases>
       <Beauty>2</Beauty>

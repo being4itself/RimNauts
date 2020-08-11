@@ -3,9 +3,9 @@
 	<!-- (Base) Basalt -->
 	<ThingDef ParentName="UglyRockBase" Name="BiomesNEO_BasaltRockBase">
 		<defName>BiomesNEO_BasaltRock</defName>
-		<label>basalt</label>
+		<label>lunar maria rock</label>
 		<generateCommonality>0</generateCommonality>
-		<description>A chunk of basalt.</description>
+		<description>The Maria are mostly composed of dark basalts, which form from rapid cooling of molten rock from massive lava flows.</description>
 		<graphicData>
 			<color>(74,67,59)</color>
 		</graphicData>
@@ -22,8 +22,8 @@
 	<!-- Smooth Basalt -->
 	<ThingDef ParentName="BiomesNEO_BasaltRockBase">
 		<defName>BiomesNEO_SmoothedBasalt</defName>
-		<label>smoothed basalt</label>
-		<description>Smoothed and polished basalt</description>
+		<label>smoothed maria</label>
+		<description>Smoothed and polished lunar maria</description>
 		<graphicData>
 			<texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
 			<color>(74,67,59)</color>
@@ -43,7 +43,7 @@
 	<!-- Basalt Chunk-->
 	<ThingDef ParentName="ChunkRockBase">
 		<defName>BiomesNEO_ChunkBasalt</defName>
-		<label>basalt chunk</label>
+		<label>maria chunk</label>
 		<graphicData>
 			<color>(74,67,59)</color>
 		</graphicData>
@@ -59,8 +59,8 @@
 	<!-- Basalt Blocks -->
 	<ThingDef ParentName="StoneBlocksBase">
 		<defName>BiomesNEO_BlocksBasalt</defName>
-		<label>basalt blocks</label>
-		<description>Blocks of solid basalt.</description>
+		<label>maria blocks</label>
+		<description>Blocks of solid maria.</description>
 		<graphicData>
 			<color>(74,67,59)</color>
 		</graphicData>
@@ -88,8 +88,8 @@
 	<!-- Basalt Blocks order -->
 	<RecipeDef ParentName="MakeStoneBlocksBase">
 		<defName>BiomesNEO_Make_StoneBlocksBasalt</defName>
-		<label>make basalt blocks</label>
-		<description>Cuts Basalt chunks into usable blocks.</description>
+		<label>make maria blocks</label>
+		<description>Cuts maria chunks into usable blocks.</description>
 		<ingredients>
 			<li>
 				<filter>
@@ -112,7 +112,7 @@
 	<!-- Basalt Tiles -->
 	<TerrainDef ParentName="TileStoneBase">
 		<defName>BiomesNEO_TileBasalt</defName>
-		<label>basalt tile</label>
+		<label>maria tile</label>
 		<color>(74,67,59)</color>
     <statBases>
       <Beauty>2</Beauty>
@@ -124,7 +124,7 @@
 	<!-- Basalt Flagstone -->
 	<TerrainDef ParentName="FlagstoneBase">
 		<defName>BiomesNEO_FlagstoneBasalt</defName>
-		<label>basalt flagstone</label>
+		<label>maria flagstone</label>
 		<color>(74,67,59)</color>
     <statBases>
       <Beauty>1</Beauty>
