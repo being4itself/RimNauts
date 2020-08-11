@@ -43,6 +43,5 @@
 		<generatedFilth>Filth_Sand</generatedFilth>
 		<fertility>0.0</fertility>
 		<takeFootprints>True</takeFootprints>
-	</TerrainDef>	
-
+	</TerrainDef>
 </Defs>
