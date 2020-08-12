@@ -25,15 +25,17 @@
 			<hasFuelingPort>true</hasFuelingPort>
 		</building>
 		<statBases>
-			<MaxHitPoints>200</MaxHitPoints>
+			<MaxHitPoints>500</MaxHitPoints>
 			<WorkToBuild>3000</WorkToBuild>
 			<Flammability>0.5</Flammability>
 		</statBases>
 		<costList>
-			<Steel>250</Steel>
 			<ComponentIndustrial>10</ComponentIndustrial>
-			<Plasteel>120</Plasteel>
 		</costList>
+		<stuffCategories>
+        	<li>Metallic</li>
+    	</stuffCategories>
+		<costStuffCount>75</costStuffCount>
 		<comps>
 			<li Class="CompProperties_Refuelable">
 				<fuelCapacity>1500.0</fuelCapacity>
@@ -123,8 +125,8 @@
 	<!-- Observatory -->
 	<ThingDef ParentName="BuildingBase">
 		<defName>RefTelescope</defName>
-		<label>observatory</label>
-		<description>A observatory for doing professional astronomy. It's a can see far away places and inspire people to reach for the stars. Can only be used outdoors.</description>
+		<label>satellite dish</label>
+		<description>A way for your colonist to explore the outer space and find suitable places for exploration.</description>
 
 		<graphicData>
 			<texPath>Things/Items/SatelliteDish</texPath>
