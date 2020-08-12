@@ -11,7 +11,7 @@
 		</graphicData>
 		<statBases>
 			<MaxHitPoints>400</MaxHitPoints>
-			<Beauty>3</Beauty>
+			<Beauty>-1</Beauty>
 		</statBases>
 		<building>
 			<mineableThing>BiomesNEO_ChunkMoonstone</mineableThing>
@@ -30,7 +30,7 @@
 		</graphicData>
 		<statBases>
 			<MarketValue>35</MarketValue>
-			<Beauty>5</Beauty>
+			<Beauty>2</Beauty>
 		</statBases>
 		<building>
 			<isNaturalRock>false</isNaturalRock>
@@ -49,7 +49,6 @@
 		</graphicData>
 		<statBases>
 			<Mass>11</Mass>
-			<Beauty>4</Beauty>
 		</statBases>
 		<soundDrop>ChunkRock_Drop</soundDrop>
 		<butcherProducts>
@@ -72,16 +71,16 @@
 			<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
 			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
-			<stuffAdjective>moonstone</stuffAdjective>
-      <statFactors>
-        <Beauty>2</Beauty>
-        <MaxHitPoints>1.2</MaxHitPoints>
-        <WorkToBuild>5.5</WorkToBuild>
-        <WorkToMake>1.15</WorkToMake>
-      </statFactors>
-      <statOffsets>
-        <Beauty>2</Beauty>
-      </statOffsets>
+			<stuffAdjective>lunar highland</stuffAdjective>
+			<statFactors>
+				<Beauty>1.35</Beauty>
+				<MaxHitPoints>1.2</MaxHitPoints>
+				<WorkToBuild>5.5</WorkToBuild>
+				<WorkToMake>1.15</WorkToMake>
+			</statFactors>
+			<statOffsets>
+				<Beauty>1</Beauty>
+			</statOffsets>
 			<commonality>0</commonality>
 		</stuffProps>
 	</ThingDef>
@@ -115,7 +114,7 @@
 		<label>lunar highland tile</label>
 		<color>(210,210,210)</color>
     <statBases>
-      <Beauty>3</Beauty>
+      <Beauty>2</Beauty>
     </statBases>
 		<costList>
 			<BiomesNEO_BlocksMoonstone>4</BiomesNEO_BlocksMoonstone>
@@ -127,7 +126,7 @@
 		<label>lunar highland flagstone</label>
 		<color>(210,210,210)</color>
     <statBases>
-      <Beauty>2</Beauty>
+      <Beauty>1</Beauty>
     </statBases>
 		<costList>
 			<BiomesNEO_BlocksMoonstone>4</BiomesNEO_BlocksMoonstone>

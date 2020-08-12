@@ -11,7 +11,7 @@
 		</graphicData>
 		<statBases>
 			<MaxHitPoints>800</MaxHitPoints>
-			<Beauty>2</Beauty>
+			<Beauty>-1</Beauty>
 		</statBases>
 		<building>
 			<mineableThing>BiomesNEO_ChunkBasalt</mineableThing>
@@ -30,7 +30,7 @@
 		</graphicData>
 		<statBases>
 			<MarketValue>45</MarketValue>
-			<Beauty>4</Beauty>
+			<Beauty>2</Beauty>
 		</statBases>
 		<building>
 			<isNaturalRock>false</isNaturalRock>
@@ -49,7 +49,6 @@
 		</graphicData>
 		<statBases>
 			<Mass>11</Mass>
-			<Beauty>3</Beauty>
 		</statBases>
 		<soundDrop>ChunkRock_Drop</soundDrop>
 		<butcherProducts>
@@ -72,16 +71,16 @@
 			<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
 			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
-			<stuffAdjective>Basalt</stuffAdjective>
-      <statFactors>
-        <Beauty>1</Beauty>
-        <MaxHitPoints>2</MaxHitPoints>
-        <WorkToBuild>5.5</WorkToBuild>
-        <WorkToMake>1.15</WorkToMake>
-      </statFactors>
-      <statOffsets>
-        <Beauty>1</Beauty>
-      </statOffsets>
+			<stuffAdjective>maria</stuffAdjective>
+			<statFactors>
+				<Beauty>1</Beauty>
+				<MaxHitPoints>2</MaxHitPoints>
+				<WorkToBuild>5.5</WorkToBuild>
+				<WorkToMake>1.15</WorkToMake>
+			</statFactors>
+			<statOffsets>
+				<Beauty>1</Beauty>
+			</statOffsets>
 			<commonality>0</commonality>
 		</stuffProps>
 	</ThingDef>

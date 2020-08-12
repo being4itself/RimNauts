@@ -147,14 +147,7 @@
 		<passability>PassThroughOnly</passability>
 		
 		<pathCost>50</pathCost>
-		<minifiedDef>MinifiedThing</minifiedDef>
 		<socialPropernessMatters>true</socialPropernessMatters>
-		<thingCategories>
-			<li>BuildingsJoy</li>
-		</thingCategories>
-		<building>
-			<joyKind>Telescope</joyKind>
-		</building>
 		<designationCategory>Misc</designationCategory>
 		<costList>
 			<Steel>500</Steel>
