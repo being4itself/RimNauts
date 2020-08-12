@@ -23,7 +23,7 @@ namespace ThatsAMoon
         {
             for (int i = -halfWidth; i <= halfWidth; i++)
             {
-                map.terrainGrid.SetTerrain(new IntVec3(pos.x, 0, pos.z + i), DefDatabase<TerrainDef>.GetNamed("lunarSand", true));
+                map.terrainGrid.SetTerrain(new IntVec3(pos.x, 0, pos.z + i), DefDatabase<TerrainDef>.GetNamed("lunarMaria", true));
             }
         }
 
@@ -43,7 +43,7 @@ namespace ThatsAMoon
                 {
                     int newZ = (int)(-22.0 * Math.Sin((double)(3.14f / (float)map.Size.x * (float)j - 0f)) + (double)map.Center.z + (double)num2 * 0.75);
                     //Log.Message("y= " + newZ.ToString(), false);
-                    this.wideBrush(new IntVec3(j, 0, newZ), "lunarSand", map, Rand.RangeInclusive(1, 4));
+                    this.wideBrush(new IntVec3(j, 0, newZ), "lunarMaria", map, Rand.RangeInclusive(1, 4));
                 }
             }
             for (int k = 1; k <= map.Size.x - 1; k++)
@@ -100,7 +100,7 @@ namespace ThatsAMoon
                 bool flag3 = map.fertilityGrid.FertilityAt(intVec) > 0f;
                 if (flag3)
                 {
-                    map.terrainGrid.SetTerrain(intVec, DefDatabase<TerrainDef>.GetNamed("lunarSand", true));
+                    map.terrainGrid.SetTerrain(intVec, DefDatabase<TerrainDef>.GetNamed("lunarMaria", true));
                 }
             }
             MapGenerator.PlayerStartSpot = new IntVec3(1, 0, 1);
@@ -168,18 +168,18 @@ namespace ThatsAMoon
                         bool flag2 = num7 * ((num13 - (float)position.x + num11) * (num13 - (float)position.x + num11)) + num8 * ((num14 - (float)position.z + (float)num12) * (num14 - (float)position.z + (float)(Rand.Bool ? num12 : (-(float)num12)))) <= 1f;
                         if (flag2)
                         {
-                            map.terrainGrid.SetTerrain(new IntVec3((int)num13, 1, (int)num14), DefDatabase<TerrainDef>.GetNamed("lunarSand", true));
+                            map.terrainGrid.SetTerrain(new IntVec3((int)num13, 1, (int)num14), DefDatabase<TerrainDef>.GetNamed("lunarMaria", true));
                         }
                         else
                         {
                             bool flag3 = num9 * ((num13 - (float)position.x + num11) * (num13 - (float)position.x + num11)) + num10 * ((num14 - (float)position.z + (float)num12) * (num14 - (float)position.z + (float)(Rand.Bool ? num12 : (-(float)num12)))) <= 1f;
                             if (flag3)
                             {
-                                GenSpawn.Spawn(DefDatabase<ThingDef>.GetNamed(((double)Rand.Value > 0.65) ? "MineableUranium" : "BiomesNEO_BasaltRock", true), new IntVec3((int)num13, 0, (int)num14), map, WipeMode.Vanish);
+                                GenSpawn.Spawn(DefDatabase<ThingDef>.GetNamed(((double)Rand.Value > 0.65) ? "MineableUranium" : "BiomesNEO_MariaRock", true), new IntVec3((int)num13, 0, (int)num14), map, WipeMode.Vanish);
                             }
                             else
                             {
-                                GenSpawn.Spawn(DefDatabase<ThingDef>.GetNamed(((double)Rand.Value > 0.65) ? "MineablePlasteel" : "BiomesNEO_MoonstoneRock", true), new IntVec3((int)num13, 0, (int)num14), map, WipeMode.Vanish);
+                                GenSpawn.Spawn(DefDatabase<ThingDef>.GetNamed(((double)Rand.Value > 0.65) ? "MineablePlasteel" : "BiomesNEO_HighlandRock", true), new IntVec3((int)num13, 0, (int)num14), map, WipeMode.Vanish);
                             }
                         }
                     }

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<!-- (Base) Basalt -->
-	<ThingDef ParentName="UglyRockBase" Name="BiomesNEO_BasaltRockBase">
-		<defName>BiomesNEO_BasaltRock</defName>
+	<!-- (Base) Maria -->
+	<ThingDef ParentName="UglyRockBase" Name="BiomesNEO_MariaRockBase">
+		<defName>BiomesNEO_MariaRock</defName>
 		<label>lunar maria rock</label>
 		<generateCommonality>0</generateCommonality>
 		<description>The Maria are mostly composed of dark basalts, which form from rapid cooling of molten rock from massive lava flows.</description>
@@ -14,14 +14,14 @@
 			<Beauty>-1</Beauty>
 		</statBases>
 		<building>
-			<mineableThing>BiomesNEO_ChunkBasalt</mineableThing>
+			<mineableThing>BiomesNEO_ChunkMaria</mineableThing>
 			<mineableDropChance>0.25</mineableDropChance>
-			<smoothedThing>BiomesNEO_SmoothedBasalt</smoothedThing>
+			<smoothedThing>BiomesNEO_SmoothedMaria</smoothedThing>
 		</building>
 	</ThingDef>
-	<!-- Smooth Basalt -->
-	<ThingDef ParentName="BiomesNEO_BasaltRockBase">
-		<defName>BiomesNEO_SmoothedBasalt</defName>
+	<!-- Smooth Maria -->
+	<ThingDef ParentName="BiomesNEO_MariaRockBase">
+		<defName>BiomesNEO_SmoothedMaria</defName>
 		<label>smoothed maria</label>
 		<description>Smoothed and polished lunar maria</description>
 		<graphicData>
@@ -40,9 +40,9 @@
 		<saveCompressible>false</saveCompressible>
 		<repairEffect>Repair</repairEffect>
 	</ThingDef>
-	<!-- Basalt Chunk-->
+	<!-- Maria Chunk-->
 	<ThingDef ParentName="ChunkRockBase">
-		<defName>BiomesNEO_ChunkBasalt</defName>
+		<defName>BiomesNEO_ChunkMaria</defName>
 		<label>maria chunk</label>
 		<graphicData>
 			<color>(74,67,59)</color>
@@ -52,12 +52,12 @@
 		</statBases>
 		<soundDrop>ChunkRock_Drop</soundDrop>
 		<butcherProducts>
-			<BiomesNEO_BlocksBasalt>20</BiomesNEO_BlocksBasalt>
+			<BiomesNEO_BlocksMaria>20</BiomesNEO_BlocksMaria>
 		</butcherProducts>
 	</ThingDef>
-	<!-- Basalt Blocks -->
+	<!-- Maria Blocks -->
 	<ThingDef ParentName="StoneBlocksBase">
-		<defName>BiomesNEO_BlocksBasalt</defName>
+		<defName>BiomesNEO_BlocksMaria</defName>
 		<label>maria blocks</label>
 		<description>Blocks of solid maria.</description>
 		<graphicData>
@@ -84,16 +84,16 @@
 			<commonality>0</commonality>
 		</stuffProps>
 	</ThingDef>
-	<!-- Basalt Blocks order -->
+	<!-- Maria Blocks order -->
 	<RecipeDef ParentName="MakeStoneBlocksBase">
-		<defName>BiomesNEO_Make_StoneBlocksBasalt</defName>
+		<defName>BiomesNEO_Make_StoneBlocksMaria</defName>
 		<label>make maria blocks</label>
 		<description>Cuts maria chunks into usable blocks.</description>
 		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>BiomesNEO_ChunkBasalt</li>
+						<li>BiomesNEO_ChunkMaria</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -101,35 +101,35 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>BiomesNEO_ChunkBasalt</li>
+				<li>BiomesNEO_ChunkMaria</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<BiomesNEO_BlocksBasalt>20</BiomesNEO_BlocksBasalt>
+			<BiomesNEO_BlocksMaria>20</BiomesNEO_BlocksMaria>
 		</products>
 	</RecipeDef>
-	<!-- Basalt Tiles -->
+	<!-- Maria Tiles -->
 	<TerrainDef ParentName="TileStoneBase">
-		<defName>BiomesNEO_TileBasalt</defName>
+		<defName>BiomesNEO_TileMaria</defName>
 		<label>maria tile</label>
 		<color>(74,67,59)</color>
     <statBases>
       <Beauty>2</Beauty>
     </statBases>
 		<costList>
-			<BiomesNEO_BlocksBasalt>4</BiomesNEO_BlocksBasalt>
+			<BiomesNEO_BlocksMaria>4</BiomesNEO_BlocksMaria>
 		</costList>
 	</TerrainDef>
-	<!-- Basalt Flagstone -->
+	<!-- Maria Flagstone -->
 	<TerrainDef ParentName="FlagstoneBase">
-		<defName>BiomesNEO_FlagstoneBasalt</defName>
+		<defName>BiomesNEO_FlagstoneMaria</defName>
 		<label>maria flagstone</label>
 		<color>(74,67,59)</color>
     <statBases>
       <Beauty>1</Beauty>
     </statBases>
 		<costList>
-			<BiomesNEO_BlocksBasalt>4</BiomesNEO_BlocksBasalt>
+			<BiomesNEO_BlocksMaria>4</BiomesNEO_BlocksMaria>
 		</costList>
 	</TerrainDef>
 </Defs>

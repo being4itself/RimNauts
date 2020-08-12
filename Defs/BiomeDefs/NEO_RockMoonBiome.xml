@@ -20,17 +20,17 @@
 		</diseases>
 		<terrainsByFertility>
 			<li>
-				<terrain>lunarSand</terrain>
+				<terrain>lunarMaria</terrain>
 				<min>-999</min>
 				<max>0</max>
 			</li>
 			<li>
-				<terrain>lunarSurface</terrain>
+				<terrain>lunarHighland</terrain>
 				<min>0</min>
 				<max>999</max>
 			</li>
 		</terrainsByFertility>
-		<texture>Terrain/Surfaces/lunarSurfaceRough</texture>
+		<texture>Terrain/Surfaces/lunarMaria</texture>
 		<baseWeatherCommonalities>
 			<Clear>1</Clear>
 		</baseWeatherCommonalities>
