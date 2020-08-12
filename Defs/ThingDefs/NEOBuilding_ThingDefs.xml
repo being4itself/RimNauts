@@ -25,15 +25,17 @@
 			<hasFuelingPort>true</hasFuelingPort>
 		</building>
 		<statBases>
-			<MaxHitPoints>200</MaxHitPoints>
+			<MaxHitPoints>500</MaxHitPoints>
 			<WorkToBuild>3000</WorkToBuild>
 			<Flammability>0.5</Flammability>
 		</statBases>
 		<costList>
-			<Steel>250</Steel>
 			<ComponentIndustrial>10</ComponentIndustrial>
-			<Plasteel>120</Plasteel>
 		</costList>
+		<stuffCategories>
+        	<li>Metallic</li>
+    	</stuffCategories>
+		<costStuffCount>75</costStuffCount>
 		<comps>
 			<li Class="CompProperties_Refuelable">
 				<fuelCapacity>1500.0</fuelCapacity>
@@ -123,8 +125,8 @@
 	<!-- Observatory -->
 	<ThingDef ParentName="BuildingBase">
 		<defName>RefTelescope</defName>
-		<label>observatory</label>
-		<description>A observatory for doing professional astronomy. It's a can see far away places and inspire people to reach for the stars. Can only be used outdoors.</description>
+		<label>satellite dish</label>
+		<description>A way for your colonist to explore the outer space and find suitable places for exploration.</description>
 
 		<graphicData>
 			<texPath>Things/Items/SatelliteDish</texPath>
@@ -145,14 +147,7 @@
 		<passability>PassThroughOnly</passability>
 		
 		<pathCost>50</pathCost>
-		<minifiedDef>MinifiedThing</minifiedDef>
 		<socialPropernessMatters>true</socialPropernessMatters>
-		<thingCategories>
-			<li>BuildingsJoy</li>
-		</thingCategories>
-		<building>
-			<joyKind>Telescope</joyKind>
-		</building>
 		<designationCategory>Misc</designationCategory>
 		<costList>
 			<Steel>500</Steel>
@@ -175,4 +170,140 @@
 			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
 		</placeWorkers>
 	</ThingDef>
+	<!-- Crater Props -->
+	<ThingDef ParentName="BuildingBase">
+		<defName>craterTwelve</defName>
+		<label>crater 12</label>
+		<description>Huge crater.</description>
+		<graphicData>	
+			<texPath>Things/Dev/craterdif</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(12,12)</drawSize>
+			<shadowData>
+				<volume>(1, 1, 1)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(12,12)</size>
+		<tickerType>Normal</tickerType>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<castEdgeShadows>False</castEdgeShadows>
+		<blockWind>false</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<statBases>
+			<MaxHitPoints>1000</MaxHitPoints>
+		</statBases>
+		<costList>
+			<Steel>150</Steel>
+		</costList>
+  	</ThingDef>
+	<ThingDef ParentName="BuildingBase">
+		<defName>craterTen</defName>
+		<label>crater 10</label>
+		<description>Huge crater.</description>
+		<graphicData>	
+			<texPath>Things/Dev/craterdif</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(10,10)</drawSize>
+			<shadowData>
+				<volume>(1, 1, 1)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(10,10)</size>
+		<tickerType>Normal</tickerType>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<castEdgeShadows>False</castEdgeShadows>
+		<blockWind>false</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<statBases>
+			<MaxHitPoints>1000</MaxHitPoints>
+		</statBases>
+		<costList>
+			<Steel>150</Steel>
+		</costList>
+  	</ThingDef>
+	<ThingDef ParentName="BuildingBase">
+		<defName>craterEight</defName>
+		<label>crater 8</label>
+		<description>Huge crater.</description>
+		<graphicData>	
+			<texPath>Things/Dev/craterdif</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(8,8)</drawSize>
+			<shadowData>
+				<volume>(1, 1, 1)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(8,8)</size>
+		<tickerType>Normal</tickerType>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<castEdgeShadows>False</castEdgeShadows>
+		<blockWind>false</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<statBases>
+			<MaxHitPoints>1000</MaxHitPoints>
+		</statBases>
+		<costList>
+			<Steel>150</Steel>
+		</costList>
+  	</ThingDef>
+	<ThingDef ParentName="BuildingBase">
+		<defName>craterSix</defName>
+		<label>crater 6</label>
+		<description>Huge crater.</description>
+		<graphicData>	
+			<texPath>Things/Dev/craterdif</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(6,6)</drawSize>
+			<shadowData>
+				<volume>(1, 1, 1)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(6,6)</size>
+		<tickerType>Normal</tickerType>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<castEdgeShadows>False</castEdgeShadows>
+		<blockWind>false</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<statBases>
+			<MaxHitPoints>1000</MaxHitPoints>
+		</statBases>
+		<costList>
+			<Steel>150</Steel>
+		</costList>
+  	</ThingDef>
+	<ThingDef ParentName="BuildingBase">
+		<defName>craterFour</defName>
+		<label>crater 4</label>
+		<description>Huge crater.</description>
+		<graphicData>	
+			<texPath>Things/Dev/craterdif</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(4,4)</drawSize>
+			<shadowData>
+				<volume>(1, 1, 1)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(4,4)</size>
+		<tickerType>Normal</tickerType>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<castEdgeShadows>False</castEdgeShadows>
+		<blockWind>false</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>0.5</fillPercent>
+		<statBases>
+			<MaxHitPoints>1000</MaxHitPoints>
+		</statBases>
+		<costList>
+			<Steel>150</Steel>
+		</costList>
+  	</ThingDef>
 </Defs>

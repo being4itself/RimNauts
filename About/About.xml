@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>[NEO] RimNauts</name>
-	<packageId>Nolabritt.neoRimNauts</packageId>
-	<author>nolabritt, RadZerp, Sophist88</author>
+	<name>RimNauts</name>
+	<packageId>RadZerp.neoRimNauts</packageId>
+	<author>RadZerp, nolabritt, Sophist88</author>
 	<supportedVersions>
 		<li>1.1</li>
 		<li>1.2</li>
 	</supportedVersions>
 	<description>
-This mod adds Near Earth Objects (NEO) like moons, asteroids and space debris. Everything is visable and animated in an orbit on the world map. The moon is a playable biome which you need to discover and travel to using a rocket.
+This mod adds Near-Earth Objects like moons, asteroids and space debris. Everything is visible and animated as an orbit on the world map mode. The moon is a playable biome that you need to discover and travel to using a rocket.
 
 
-Known issues
-- There's a bug that causes the moon to disappear when the camera moves(not zooming) far enough away from it.
+Credits:
 
-- THIS MOD REQUIRES A NEW SAVE TO SEE THE MOON
+C#: 
+- Nolabritt (https://steamcommunity.com/profiles/76561198032541893/myworkshopfiles/)
 
-Credits
-- Art: Kasmex and Genome-X
+2D art / Sprites: 
+- Kasmex (https://ko-fi.com/kasmex)
+- Genome-X (https://ko-fi.com/genomex)
 	</description>
 	<modDependencies>
 		<li>

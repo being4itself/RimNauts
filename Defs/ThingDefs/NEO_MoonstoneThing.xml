@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- (Base) Lunar Stone -->
+	<ThingDef ParentName="UglyRockBase" Name="BiomesNEO_MoonstoneRockBase">
+		<defName>BiomesNEO_MoonstoneRock</defName>
+		<label>lunar highland rock</label>
+		<generateCommonality>0</generateCommonality>
+		<description>The Highlands rocks are largely Anorthosite, which is a kind of igneous rock that forms when lava cools more slowly.</description>
+		<graphicData>
+			<color>(210,210,210)</color>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>400</MaxHitPoints>
+			<Beauty>-1</Beauty>
+		</statBases>
+		<building>
+			<mineableThing>BiomesNEO_ChunkMoonstone</mineableThing>
+			<mineableDropChance>0.25</mineableDropChance>
+			<smoothedThing>BiomesNEO_SmoothedMoonstone</smoothedThing>
+		</building>
+	</ThingDef>
+	<!-- Smooth Moonstone -->
+	<ThingDef ParentName="BiomesNEO_MoonstoneRockBase">
+		<defName>BiomesNEO_SmoothedMoonstone</defName>
+		<label>smoothed highland rock</label>
+		<description>Smoothed and polished moonstone</description>
+		<graphicData>
+			<texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+			<color>(210,210,210)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>35</MarketValue>
+			<Beauty>2</Beauty>
+		</statBases>
+		<building>
+			<isNaturalRock>false</isNaturalRock>
+			<canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
+			<smoothedThing />
+		</building>
+		<saveCompressible>false</saveCompressible>
+		<repairEffect>Repair</repairEffect>
+	</ThingDef>
+	<!-- Moonstone Chunk-->
+	<ThingDef ParentName="ChunkRockBase">
+		<defName>BiomesNEO_ChunkMoonstone</defName>
+		<label>lunar highland chunk</label>
+		<graphicData>
+			<color>(210,210,210)</color>
+		</graphicData>
+		<statBases>
+			<Mass>11</Mass>
+		</statBases>
+		<soundDrop>ChunkRock_Drop</soundDrop>
+		<butcherProducts>
+			<BiomesNEO_BlocksMoonstone>20</BiomesNEO_BlocksMoonstone>
+		</butcherProducts>
+	</ThingDef>
+	<!-- Moonstone Blocks -->
+	<ThingDef ParentName="StoneBlocksBase">
+		<defName>BiomesNEO_BlocksMoonstone</defName>
+		<label>lunar highland blocks</label>
+		<description>Blocks of solid lunar highland.</description>
+		<graphicData>
+			<color>(210,210,210)</color>
+		</graphicData>
+		<statBases>
+			<Mass>1.0</Mass>
+		</statBases>
+		<stuffProps>
+			<color>(210,210,210)</color>
+			<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+			<stuffAdjective>lunar highland</stuffAdjective>
+			<statFactors>
+				<Beauty>1.35</Beauty>
+				<MaxHitPoints>1.2</MaxHitPoints>
+				<WorkToBuild>5.5</WorkToBuild>
+				<WorkToMake>1.15</WorkToMake>
+			</statFactors>
+			<statOffsets>
+				<Beauty>1</Beauty>
+			</statOffsets>
+			<commonality>0</commonality>
+		</stuffProps>
+	</ThingDef>
+	<!-- Moonstone Blocks order -->
+	<RecipeDef ParentName="MakeStoneBlocksBase">
+		<defName>BiomesNEO_Make_StoneBlocksMoonstone</defName>
+		<label>make lunar highland blocks</label>
+		<description>Cuts lunar highland chunks into usable blocks.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BiomesNEO_ChunkMoonstone</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>BiomesNEO_ChunkMoonstone</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BiomesNEO_BlocksMoonstone>20</BiomesNEO_BlocksMoonstone>
+		</products>
+	</RecipeDef>
+	<!-- Moonstone Tiles -->
+	<TerrainDef ParentName="TileStoneBase">
+		<defName>BiomesNEO_TileMoonstone</defName>
+		<label>lunar highland tile</label>
+		<color>(210,210,210)</color>
+    <statBases>
+      <Beauty>2</Beauty>
+    </statBases>
+		<costList>
+			<BiomesNEO_BlocksMoonstone>4</BiomesNEO_BlocksMoonstone>
+		</costList>
+	</TerrainDef>
+	<!-- Moonstone Flagstone -->
+	<TerrainDef ParentName="FlagstoneBase">
+		<defName>BiomesNEO_FlagstoneMoonstone</defName>
+		<label>lunar highland flagstone</label>
+		<color>(210,210,210)</color>
+    <statBases>
+      <Beauty>1</Beauty>
+    </statBases>
+		<costList>
+			<BiomesNEO_BlocksMoonstone>4</BiomesNEO_BlocksMoonstone>
+		</costList>
+	</TerrainDef>
+</Defs>

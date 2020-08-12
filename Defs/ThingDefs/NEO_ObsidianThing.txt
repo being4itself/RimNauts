@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- (Base) Obsidian -->
+	<ThingDef ParentName="UglyRockBase" Name="BiomesNEO_ObsidianRockBase">
+		<defName>BiomesNEO_ObsidianRock</defName>
+		<label>Obsidian</label>
+		<generateCommonality>0</generateCommonality>
+		<description>A chunk of Obsidian.</description>
+		<graphicData>
+			<color>(0,0,0)</color>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>400</MaxHitPoints>
+			<Beauty>3</Beauty>
+		</statBases>
+		<building>
+			<mineableThing>BiomesNEO_ChunkObsidian</mineableThing>
+			<mineableDropChance>0.25</mineableDropChance>
+			<smoothedThing>BiomesNEO_SmoothedObsidian</smoothedThing>
+		</building>
+	</ThingDef>
+	<!-- Smooth Obsidian -->
+	<ThingDef ParentName="BiomesNEO_ObsidianRockBase">
+		<defName>BiomesNEO_SmoothedObsidian</defName>
+		<label>smoothed Obsidian</label>
+		<description>Smoothed and polished Obsidian</description>
+		<graphicData>
+			<texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+			<color>(0,0,0)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>55</MarketValue>
+			<Beauty>6</Beauty>
+		</statBases>
+		<building>
+			<isNaturalRock>false</isNaturalRock>
+			<canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
+			<smoothedThing />
+		</building>
+		<saveCompressible>false</saveCompressible>
+		<repairEffect>Repair</repairEffect>
+	</ThingDef>
+	<!-- Obsidian Chunk-->
+	<ThingDef ParentName="ChunkRockBase">
+		<defName>BiomesNEO_ChunkObsidian</defName>
+		<label>Obsidian chunk</label>
+		<graphicData>
+			<color>(0,0,0)</color>
+		</graphicData>
+		<statBases>
+			<Mass>11</Mass>
+			<Beauty>5</Beauty>
+		</statBases>
+		<soundDrop>ChunkRock_Drop</soundDrop>
+		<butcherProducts>
+			<BiomesNEO_BlocksObsidian>20</BiomesNEO_BlocksObsidian>
+		</butcherProducts>
+	</ThingDef>
+	<!-- Obsidian Blocks -->
+	<ThingDef ParentName="StoneBlocksBase">
+		<defName>BiomesNEO_BlocksObsidian</defName>
+		<label>Obsidian blocks</label>
+		<description>Blocks of solid Obsidian.</description>
+		<graphicData>
+			<color>(0,0,0)</color>
+		</graphicData>
+		<statBases>
+			<Mass>1.0</Mass>
+		</statBases>
+		<stuffProps>
+			<color>(0,0,0)</color>
+			<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+			<stuffAdjective>Obsidian</stuffAdjective>
+      <statFactors>
+        <Beauty>3</Beauty>
+        <MaxHitPoints>2.5</MaxHitPoints>
+        <WorkToBuild>5.5</WorkToBuild>
+        <WorkToMake>1.15</WorkToMake>
+      </statFactors>
+      <statOffsets>
+        <Beauty>3</Beauty>
+      </statOffsets>
+			<commonality>0</commonality>
+		</stuffProps>
+	</ThingDef>
+	<!-- Obsidian Blocks order -->
+	<RecipeDef ParentName="MakeStoneBlocksBase">
+		<defName>BiomesNEO_Make_StoneBlocksObsidian</defName>
+		<label>make Obsidian blocks</label>
+		<description>Cuts Obsidian chunks into usable blocks.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BiomesNEO_ChunkObsidian</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>BiomesNEO_ChunkObsidian</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BiomesNEO_BlocksObsidian>20</BiomesNEO_BlocksObsidian>
+		</products>
+	</RecipeDef>
+	<!-- Obsidian Tiles -->
+	<TerrainDef ParentName="TileStoneBase">
+		<defName>BiomesNEO_TileObsidian</defName>
+		<label>Obsidian tile</label>
+			<color>(0,0,0)</color>
+    <statBases>
+      <Beauty>4</Beauty>
+    </statBases>
+		<costList>
+			<BiomesNEO_BlocksObsidian>4</BiomesNEO_BlocksObsidian>
+		</costList>
+	</TerrainDef>
+	<!-- Obsidian Flagstone -->
+	<TerrainDef ParentName="FlagstoneBase">
+		<defName>BiomesNEO_FlagstoneObsidian</defName>
+		<label>Obsidian flagstone</label>
+			<color>(0,0,0)</color>
+    <statBases>
+      <Beauty>3</Beauty>
+    </statBases>
+		<costList>
+			<BiomesNEO_BlocksObsidian>4</BiomesNEO_BlocksObsidian>
+		</costList>
+	</TerrainDef>
+
+</Defs>
