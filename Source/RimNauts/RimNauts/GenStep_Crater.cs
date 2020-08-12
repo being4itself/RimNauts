@@ -33,7 +33,7 @@ namespace ThatsAMoon
             bool devMode = Prefs.DevMode;
             if (devMode)
             {
-                Log.Message("start crater gen", false);
+                //Log.Message("start crater gen", false);
             }
             int num = map.Size.x / 2 - 3;
             for (int i = 1; i <= Rand.RangeInclusive(4, 10); i++)
@@ -42,27 +42,27 @@ namespace ThatsAMoon
                 for (int j = 1; j <= map.Size.x - 1; j++)
                 {
                     int newZ = (int)(-22.0 * Math.Sin((double)(3.14f / (float)map.Size.x * (float)j - 0f)) + (double)map.Center.z + (double)num2 * 0.75);
-                    Log.Message("y= " + newZ.ToString(), false);
+                    //Log.Message("y= " + newZ.ToString(), false);
                     this.wideBrush(new IntVec3(j, 0, newZ), "lunarSand", map, Rand.RangeInclusive(1, 4));
                 }
             }
             for (int k = 1; k <= map.Size.x - 1; k++)
             {
                 int newZ2 = (int)(-6.0 * Math.Sin((double)(3.14f / (float)map.Size.x * (float)k - 0f)) + (double)map.Center.z + (double)(map.Size.z / 2 - 5) * 0.75);
-                Log.Message("y= " + newZ2.ToString(), false);
+                //Log.Message("y= " + newZ2.ToString(), false);
                 this.wideBrush(new IntVec3(k, 0, newZ2), "astroidIceHi", map, Rand.RangeInclusive(1, 4));
             }
             for (int l = 1; l <= Rand.RangeInclusive(1, 1); l++)
             {
                 IntVec3 position = new IntVec3(map.Center.x + (int)(((double)Rand.Value - 0.5) * (double)map.Size.x * 0.75), map.Center.y + (int)(((double)Rand.Value - 0.5) * (double)map.Size.y * 0.75), map.Center.z + (int)(((double)Rand.Value - 0.5) * (double)map.Size.z * 0.75));
-                Log.Message(string.Concat(new string[]
+                /*Log.Message(string.Concat(new string[]
                 {
                     position.x.ToString(),
                     ",",
                     position.y.ToString(),
                     ",",
                     position.z.ToString()
-                }), false);
+                }), false);*/
                 this.genCrater(position, new IntVec3(Rand.RangeInclusive(20, 30), 0, Rand.RangeInclusive(20, 30)), map);
             }
             for (int m = 1; m <= Rand.RangeInclusive(1, 1); m++)
@@ -83,7 +83,7 @@ namespace ThatsAMoon
                     bool devMode2 = Prefs.DevMode;
                     if (devMode2)
                     {
-                        Log.Message("start carve", false);
+                        //Log.Message("start carve", false);
                     }
                     Thing thing = GenSpawn.Spawn(ThingDefOf.Sandstone, intVec, map, WipeMode.Vanish);
                     thing.Destroy(DestroyMode.Vanish);
@@ -94,7 +94,7 @@ namespace ThatsAMoon
                     }
                     else
                     {
-                        Log.Error("No Space found", false);
+                        //Log.Error("No Space found", false);
                     }
                 }
                 bool flag3 = map.fertilityGrid.FertilityAt(intVec) > 0f;
@@ -135,7 +135,7 @@ namespace ThatsAMoon
             }
             catch
             {
-                Log.Error("error setting terrrain" + targetDef, false);
+                //Log.Error("error setting terrrain" + targetDef, false);
             }
         }
 
@@ -143,7 +143,7 @@ namespace ThatsAMoon
         public void genCrater(IntVec3 position, IntVec3 size, Map map)
         {
             float num = 1f / (float)(size.x * size.x);
-            Log.Message("A_coef:  " + num.ToString(), false);
+            //Log.Message("A_coef:  " + num.ToString(), false);
             float num2 = 1f / (float)(size.z * size.z);
             float num3 = 0.75f * (float)size.x;
             float num4 = 0.75f * (float)size.z;
@@ -157,7 +157,7 @@ namespace ThatsAMoon
             int num12 = 0;
             for (int i = -size.x; i <= size.x; i++)
             {
-                Log.ResetMessageCount();
+                //Log.ResetMessageCount();
                 for (int j = -size.z; j <= size.z; j++)
                 {
                     float num13 = (float)(position.x + i);

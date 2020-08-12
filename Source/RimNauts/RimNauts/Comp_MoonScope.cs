@@ -58,7 +58,7 @@ namespace ThatsAMoon
                 bool devMode = Prefs.DevMode;
                 if (devMode)
                 {
-                    Log.Message("making map", false);
+                    //Log.Message("making map", false);
                 }
                 Map map = Current.Game.GetComponent<Gamecomp_SatellitesInOrbit>().makeMoonMap();
                 this.numberOfMaps++;
@@ -74,7 +74,7 @@ namespace ThatsAMoon
                     bool devMode2 = Prefs.DevMode;
                     if (devMode2)
                     {
-                        Log.Message("making moon", false);
+                        //Log.Message("making moon", false);
                     }
                     Current.Game.GetComponent<Gamecomp_SatellitesInOrbit>().tryGenSatellite();
                     this.numberOfMoons++;

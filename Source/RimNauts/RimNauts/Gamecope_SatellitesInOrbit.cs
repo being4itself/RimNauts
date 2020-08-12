@@ -63,7 +63,7 @@ namespace ThatsAMoon
             }
             catch
             {
-                Log.Error("Failed to add satellite", false);
+                //Log.Error("Failed to add satellite", false);
                 result = false;
             }
             return result;
@@ -92,7 +92,7 @@ namespace ThatsAMoon
             }
             catch
             {
-                Log.Error("Failed to add satellite", false);
+                //Log.Error("Failed to add satellite", false);
                 result = false;
             }
             return result;
@@ -108,7 +108,7 @@ namespace ThatsAMoon
         // Token: 0x06000039 RID: 57 RVA: 0x00003B20 File Offset: 0x00001D20
         public Map makeMoonMap()
         {
-            Log.Message("Look at that moon!", false);
+            //Log.Message("Look at that moon!", false);
             Map map = MapGenerator.GenerateMap(new IntVec3(300, 1, 300), Enumerable.Last<WorldObjectChild_Satellite>(this.satellites), Enumerable.Last<WorldObjectChild_Satellite>(this.satellites).MapGeneratorDef, Enumerable.Last<WorldObjectChild_Satellite>(this.satellites).ExtraGenStepDefs, null);
             try
             {
@@ -125,12 +125,12 @@ namespace ThatsAMoon
                 bool flag3 = flag;
                 if (flag3)
                 {
-                    Log.Message("set weather", false);
+                    //Log.Message("set weather", false);
                     map.weatherManager.curWeather = WeatherDef.Named("OuterSpaceWeather");
                 }
                 else
                 {
-                    Log.Message("no weather", false);
+                    //Log.Message("no weather", false);
                 }
             }
             catch
@@ -138,7 +138,7 @@ namespace ThatsAMoon
                 bool devMode = Prefs.DevMode;
                 if (devMode)
                 {
-                    Log.Message("No space weather catch", false);
+                    //Log.Message("No space weather catch", false);
                 }
             }
             Find.World.WorldUpdate();
