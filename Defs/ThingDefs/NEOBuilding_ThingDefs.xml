@@ -7,10 +7,11 @@
 		<description>A fueling port for launching rockets to the moon.</description>
 
 		<graphicData>
-			<texPath>Things/Items/LaunchPadTest</texPath>
+			<texPath>Things/Items/LaunchPad</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(11,8)</drawSize>
 		</graphicData>
+		<uiIconPath>UI/LaunchPad</uiIconPath>
 		<size>(1,6)</size>
 		<rotatable>false</rotatable>
 		<altitudeLayer>Building</altitudeLayer>
