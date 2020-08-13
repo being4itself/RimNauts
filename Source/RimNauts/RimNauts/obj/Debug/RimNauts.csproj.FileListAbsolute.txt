@@ -1,3 +1,7 @@
 S:\SteamLibrary\steamapps\common\RimWorld\Mods\RimNauts\Source\RimNauts\RimNauts\obj\Debug\RimNauts.csprojAssemblyReference.cache
 S:\SteamLibrary\steamapps\common\RimWorld\Mods\RimNauts\Assemblies\ThatsAMoon.dll
 S:\SteamLibrary\steamapps\common\RimWorld\Mods\RimNauts\Source\RimNauts\RimNauts\obj\Debug\ThatsAMoon.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RimNauts\Assemblies\ThatsAMoon.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RimNauts\Source\RimNauts\RimNauts\obj\Debug\RimNauts.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RimNauts\Source\RimNauts\RimNauts\obj\Debug\RimNauts.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RimNauts\Source\RimNauts\RimNauts\obj\Debug\ThatsAMoon.dll
