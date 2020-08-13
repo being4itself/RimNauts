@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<!-- Lunar Highlands -->
-	<TerrainDef Name="lunarSurface" ParentName="NaturalTerrainBase">
-		<defName>lunarSurface</defName>
+	<TerrainDef Name="lunarHighland" ParentName="NaturalTerrainBase">
+		<defName>lunarHighland</defName>
 		<label>lunar highlands</label>
 		<description>Lunar Highlands.</description>
-		<texturePath>Terrain/Surfaces/lunarSurfaceFine</texturePath>
+		<texturePath>Terrain/Surfaces/lunarHighland</texturePath>
 		<edgeType>FadeRough</edgeType>
 		<renderPrecedence>340</renderPrecedence>
 		<pathCost>2</pathCost>
@@ -24,11 +24,11 @@
 		<takeFootprints>True</takeFootprints>
 	</TerrainDef>
   	<!-- Lunar Maria -->
-	<TerrainDef Name="lunarSand" ParentName="NaturalTerrainBase">
-		<defName>lunarSand</defName>
+	<TerrainDef Name="lunarMaria" ParentName="NaturalTerrainBase">
+		<defName>lunarMaria</defName>
 		<label>lunar maria</label>
 		<description>Lunar Maria.</description>
-		<texturePath>Terrain/Surfaces/lunarSurfaceRough</texturePath>
+		<texturePath>Terrain/Surfaces/lunarMaria</texturePath>
 		<edgeType>FadeRough</edgeType>
 		<renderPrecedence>350</renderPrecedence>
 		<pathCost>5</pathCost>

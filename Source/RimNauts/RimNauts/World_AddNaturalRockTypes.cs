@@ -21,13 +21,13 @@ namespace ThatsAMoon
             {
                 __result = new List<ThingDef>
                 {
-                    DefDatabase<ThingDef>.GetNamed("BiomesNEO_MoonstoneRock", true)
+                    DefDatabase<ThingDef>.GetNamed("BiomesNEO_HighlandRock", true)
                 };
             }
             else
             {
-                bool flag3 = Enumerable.Contains<ThingDef>(__result, DefDatabase<ThingDef>.GetNamed("BiomesNEO_MoonstoneRock", true));
-                bool flag4 = Enumerable.Contains<ThingDef>(__result, DefDatabase<ThingDef>.GetNamed("BiomesNEO_BasaltRock", true));
+                bool flag3 = Enumerable.Contains<ThingDef>(__result, DefDatabase<ThingDef>.GetNamed("BiomesNEO_HighlandRock", true));
+                bool flag4 = Enumerable.Contains<ThingDef>(__result, DefDatabase<ThingDef>.GetNamed("BiomesNEO_MariaRock", true));
                 bool flag5 = flag3 || flag4;
                 if (flag5)
                 {
@@ -37,14 +37,14 @@ namespace ThatsAMoon
                     bool flag6 = flag3;
                     if (flag6)
                     {
-                        rocks.Remove(DefDatabase<ThingDef>.GetNamed("BiomesNEO_MoonstoneRock", true));
+                        rocks.Remove(DefDatabase<ThingDef>.GetNamed("BiomesNEO_HighlandRock", true));
                     }
                     bool flag7 = flag4;
                     if (flag7)
                     {
-                        rocks.Remove(DefDatabase<ThingDef>.GetNamed("BiomesNEO_BasaltRock", true));
+                        rocks.Remove(DefDatabase<ThingDef>.GetNamed("BiomesNEO_MariaRock", true));
                     }
-                    List<ThingDef> list = Enumerable.ToList<ThingDef>(Enumerable.Where<ThingDef>(DefDatabase<ThingDef>.AllDefs, (ThingDef d) => d.category.Equals(ThingCategory.Building) && d.building.isNaturalRock && !d.building.isResourceRock && !d.IsSmoothed && !rocks.Contains(d) && d.defName != "BiomesNEO_MoonstoneRock" && d.defName != "BiomesNEO_BasaltRock"));
+                    List<ThingDef> list = Enumerable.ToList<ThingDef>(Enumerable.Where<ThingDef>(DefDatabase<ThingDef>.AllDefs, (ThingDef d) => d.category.Equals(ThingCategory.Building) && d.building.isNaturalRock && !d.building.isResourceRock && !d.IsSmoothed && !rocks.Contains(d) && d.defName != "BiomesNEO_HighlandRock" && d.defName != "BiomesNEO_MariaRock"));
                     bool flag8 = !list.NullOrEmpty<ThingDef>();
                     bool flag9 = flag8;
                     if (flag9)
