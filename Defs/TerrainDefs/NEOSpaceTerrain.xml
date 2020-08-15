@@ -16,10 +16,8 @@
 		<fertility>0</fertility>
 		<avoidWander>true</avoidWander>
 		<holdSnow>false</holdSnow>
-		<affordances>
-			<li>Light</li>
-			<li>Medium</li>
-			<li>Heavy</li>
-		</affordances>
+    <affordances>
+      <li>MovingFluid</li>
+    </affordances>
   	</TerrainDef>
 </Defs>
