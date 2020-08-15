@@ -21,7 +21,7 @@ namespace RimNauts
 
 			for (int i = 0; i <= (int)Rand.Range(40, 80); i++)
 			{
-				Current.Game.GetComponent<Gamecomp_SatellitesInOrbit>().tryGenSatellite(Find.World.grid.TilesCount);
+				Current.Game.GetComponent<Gamecomp_SatellitesInOrbit>().tryGenSatellite(Find.World.grid.TilesCount-1);
 
 			}
 		}
@@ -30,7 +30,7 @@ namespace RimNauts
 		{
 			for (int i = 0; i <= (int)Rand.Range(40, 80); i++)
 			{
-				Current.Game.GetComponent<Gamecomp_SatellitesInOrbit>().tryGenSatellite(Find.World.grid.TilesCount);
+				Current.Game.GetComponent<Gamecomp_SatellitesInOrbit>().tryGenSatellite(Find.World.grid.TilesCount-1);
 
 			}
 		}
