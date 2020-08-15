@@ -7,7 +7,7 @@
     <ProjectGuid>{A0B525E8-2A1C-49D4-9845-A0685341407F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>RimNauts</RootNamespace>
+    <RootNamespace>ThatsAMoon</RootNamespace>
     <AssemblyName>ThatsAMoon</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -69,6 +69,11 @@
     <Compile Include="FromSatellite.cs" />
     <Compile Include="Gamecope_SatellitesInOrbit.cs" />
     <Compile Include="GenStep_Crater.cs" />
+    <Compile Include="MapGeneration\ElevationFertilityPatch.cs" />
+    <Compile Include="MapGeneration\GenStep_MoonRocks.cs" />
+    <Compile Include="MapGeneration\GenStep_MoonTerrain.cs" />
+    <Compile Include="MapGeneration\RocksFromGridPatch.cs" />
+    <Compile Include="MapGeneration\TerrainPatch.cs" />
     <Compile Include="MyDefOf.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SatelliteBiomeGetter.cs" />
