@@ -2,7 +2,7 @@
 <ModMetaData>
 	<name>RimNauts</name>
 	<packageId>RadZerp.neoRimNauts</packageId>
-	<author>RadZerp, nolabritt, Sophist88</author>
+	<author>Nolabritt, RadZerp, Sophist88</author>
 	<supportedVersions>
 		<li>1.1</li>
 		<li>1.2</li>
@@ -15,6 +15,10 @@ Credits:
 
 C#: 
 - Nolabritt (https://steamcommunity.com/profiles/76561198032541893/myworkshopfiles/)
+- Zylle
+
+NET.4.7.2 XML:
+- Sophist88
 
 2D art / Sprites: 
 - Kasmex (https://ko-fi.com/kasmex)

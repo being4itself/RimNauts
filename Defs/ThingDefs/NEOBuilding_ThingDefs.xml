@@ -157,7 +157,7 @@
 			<ComponentSpacer>10</ComponentSpacer>
 		</costList>
 		<comps>
-			<li Class="ThatsAMoon.CompProperties_MoonScope" />
+			<li Class="RimNauts.CompProperties_MoonScope" />
 		</comps>
 		<statBases>
 			<MaxHitPoints>75</MaxHitPoints>

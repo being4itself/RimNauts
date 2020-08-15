@@ -4,7 +4,7 @@
 		<defName>Junk1</defName>
 		<label>space junk</label>
 		<description>A random piece of space debris.</description>
-		<worldObjectClass>ThatsAMoon.WorldObjectChild_Satellite</worldObjectClass>
+		<worldObjectClass>RimNauts.WorldObjectChild_Satellite</worldObjectClass>
 		<texture>NEOs/Junk/SpaceWaste_A</texture>
 		<useDynamicDrawer>false</useDynamicDrawer>
 		<expandingIcon>true</expandingIcon>
@@ -16,7 +16,7 @@
 		<defName>Junk2</defName>
 		<label>space junk</label>
 		<description>A random piece of space debris.</description>
-		<worldObjectClass>ThatsAMoon.WorldObjectChild_Satellite</worldObjectClass>
+		<worldObjectClass>RimNauts.WorldObjectChild_Satellite</worldObjectClass>
 		<texture>NEOs/Junk/Bship</texture>
 		<useDynamicDrawer>false</useDynamicDrawer>
 		<expandingIcon>true</expandingIcon>
@@ -28,7 +28,7 @@
 		<defName>Junk3</defName>
 		<label>space junk</label>
 		<description>A random piece of space debris.</description>
-		<worldObjectClass>ThatsAMoon.WorldObjectChild_Satellite</worldObjectClass>
+		<worldObjectClass>RimNauts.WorldObjectChild_Satellite</worldObjectClass>
 		<texture>NEOs/Junk/Bship2</texture>
 		<useDynamicDrawer>false</useDynamicDrawer>
 		<expandingIcon>true</expandingIcon>
@@ -40,7 +40,7 @@
 		<defName>Junk4</defName>
 		<label>space junk</label>
 		<description>A random piece of space debris.</description>
-		<worldObjectClass>ThatsAMoon.WorldObjectChild_Satellite</worldObjectClass>
+		<worldObjectClass>RimNauts.WorldObjectChild_Satellite</worldObjectClass>
 		<texture>NEOs/Junk/Bship3</texture>
 		<useDynamicDrawer>false</useDynamicDrawer>
 		<expandingIcon>true</expandingIcon>
@@ -52,7 +52,7 @@
 		<defName>Junk5</defName>
 		<label>space junk1</label>
 		<description>A random piece of space junk.</description>
-		<worldObjectClass>ThatsAMoon.WorldObjectChild_Satellite</worldObjectClass>
+		<worldObjectClass>RimNauts.WorldObjectChild_Satellite</worldObjectClass>
 		<texture>NEOs/Junk/Chunks_Gold_outlineless</texture>
 		<useDynamicDrawer>false</useDynamicDrawer>
 		<expandingIcon>true</expandingIcon>
@@ -64,7 +64,7 @@
 		<defName>Junk6</defName>
 		<label>space junk2</label>
 		<description>A random piece of space debris.</description>
-		<worldObjectClass>ThatsAMoon.WorldObjectChild_Satellite</worldObjectClass>
+		<worldObjectClass>RimNauts.WorldObjectChild_Satellite</worldObjectClass>
 		<texture>NEOs/Junk/Chunks_Gold_outlineless</texture>
 		<useDynamicDrawer>false</useDynamicDrawer>
 		<expandingIcon>true</expandingIcon>
@@ -76,7 +76,7 @@
 		<defName>Junk7</defName>
 		<label>space junk</label>
 		<description>A random piece of space debris.</description>
-		<worldObjectClass>ThatsAMoon.WorldObjectChild_Satellite</worldObjectClass>
+		<worldObjectClass>RimNauts.WorldObjectChild_Satellite</worldObjectClass>
 		<texture>NEOs/Junk/asteroid</texture>
 		<useDynamicDrawer>false</useDynamicDrawer>
 		<expandingIcon>true</expandingIcon>
@@ -88,7 +88,7 @@
 		<defName>Junk8</defName>
 		<label>space junk</label>
 		<description>A random piece of space debris.</description>
-		<worldObjectClass>ThatsAMoon.WorldObjectChild_Satellite</worldObjectClass>
+		<worldObjectClass>RimNauts.WorldObjectChild_Satellite</worldObjectClass>
 		<texture>NEOs/Junk/asteroid_B</texture>
 		<useDynamicDrawer>false</useDynamicDrawer>
 		<expandingIcon>true</expandingIcon>
@@ -100,7 +100,7 @@
 		<defName>Junk9</defName>
 		<label>space junk</label>
 		<description>A random piece of space debris.</description>
-		<worldObjectClass>ThatsAMoon.WorldObjectChild_Satellite</worldObjectClass>
+		<worldObjectClass>RimNauts.WorldObjectChild_Satellite</worldObjectClass>
 		<texture>NEOs/Junk/asteroid_C</texture>
 		<useDynamicDrawer>false</useDynamicDrawer>
 		<expandingIcon>true</expandingIcon>

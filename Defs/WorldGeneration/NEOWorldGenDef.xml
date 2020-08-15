@@ -3,6 +3,6 @@
 	<WorldGenStepDef>
 		<defName>Moons</defName>
 		<order>700</order>
-		<worldGenStep Class="ThatsAMoon.WorldGenStep_Moons"/>
+		<worldGenStep Class="RimNauts.WorldGenStep_Moons"/>
 	</WorldGenStepDef>
 </Defs>

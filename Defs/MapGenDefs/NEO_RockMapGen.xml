@@ -17,6 +17,6 @@
 	<GenStepDef>
 		<defName>Crater</defName>
 		<order>1001</order>
-		<genStep Class="ThatsAMoon.GenStep_Crater" />
+		<genStep Class="RimNauts.GenStep_Crater" />
 	</GenStepDef>
 </Defs>

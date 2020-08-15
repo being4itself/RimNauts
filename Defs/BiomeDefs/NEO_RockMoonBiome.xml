@@ -4,7 +4,7 @@
 		<defName>RockMoonBiome</defName>
 		<label>barrenMoon</label>
 		<description>Rocky Moon</description>
-		<workerClass>ThatsAMoon.BiomeWorker_Satellite</workerClass>
+		<workerClass>RimNauts.BiomeWorker_Satellite</workerClass>
 		<animalDensity>0</animalDensity>
 		<plantDensity>0</plantDensity>
 		<hasVirtualPlants>false</hasVirtualPlants>

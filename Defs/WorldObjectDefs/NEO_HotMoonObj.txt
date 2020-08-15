@@ -4,7 +4,7 @@
 		<defName>HotMoon</defName>
 		<label>hot moon</label>
 		<description>This near earth object is very hot!</description>
-		<worldObjectClass>ThatsAMoon.WorldObjectChild_Satellite</worldObjectClass>
+		<worldObjectClass>RimNauts.WorldObjectChild_Satellite</worldObjectClass>
 		<texture>NEOs/Rimroids/gassymoon</texture>
 		<useDynamicDrawer>false</useDynamicDrawer>
 		<expandingIcon>true</expandingIcon>
