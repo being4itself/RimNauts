@@ -1,6 +1,6 @@
 # RimNauts
 
-Unstable branch: <https://github.com/RadZerp/RimNauts>
+Stable branch: <https://github.com/RadZerp/RimNauts>
 
 Online Kanban board: <https://app.gitkraken.com/glo/board/XyxK3suy-AARITkY>
 
