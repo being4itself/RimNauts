@@ -92,7 +92,7 @@ namespace RimNauts
 
         public Map makeMoonMap()
         {
-            Log.Message("Look at that moon!");
+            //Log.Message("Look at that moon!");
             WorldObjectChild_Satellite target = this.satellites.Find((WorldObjectChild_Satellite x) => !x.hasMap);
             this.satellites.Remove(target);
             Map map2 = MapGenerator.GenerateMap(new IntVec3(300,1,300), target, target.MapGeneratorDef, target.ExtraGenStepDefs, null);
@@ -111,12 +111,12 @@ namespace RimNauts
                 } 
                 if(flag)
                 {
-                    Log.Message("set weather");
+                    //Log.Message("set weather");
                     map2.weatherManager.curWeather = WeatherDef.Named("OuterSpaceWeather");
                 }
                 else
                 {
-                    Log.Message("no weather");
+                    //Log.Message("no weather");
                 }
             }
             catch { if (Prefs.DevMode) Log.Message("No space weather catch"); }
