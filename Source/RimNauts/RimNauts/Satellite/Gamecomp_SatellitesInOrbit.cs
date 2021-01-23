@@ -11,11 +11,13 @@ using System.Security.Policy;
 
 namespace RimNauts
 {
-    class Gamecomp_SatellitesInOrbit : GameComponent
+    public class Gamecomp_SatellitesInOrbit : GameComponent
     {
+        public static readonly Dictionary<int, WorldObjectChild_Satellite> cachedWorldObjectTiles = new Dictionary<int, WorldObjectChild_Satellite>();
         public Gamecomp_SatellitesInOrbit(Game game) : base()
         {
         }
+
         public Tile getTile(int tileNum)
         {
             return Find.World.grid.tiles.ElementAt<Tile>(tileNum);         
