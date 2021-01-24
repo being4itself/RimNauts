@@ -77,11 +77,10 @@
     <Compile Include="Map\exp\GenStep_SatelliteElevationFertility.cs" />
     <Compile Include="Satellite\CompProperties_MoonScope.cs" />
     <Compile Include="Satellite\Comp_MoonScope.cs" />
-    <Compile Include="World\FromSatellite.cs" />
     <Compile Include="Map\MapCarve\GenStep_Crater.cs" />
     <Compile Include="Map\exp\GenStep_MoonChunks.cs" />
     <Compile Include="Satellite\RimNauts.cs" />
-    <Compile Include="World\ToSatellite.cs" />
+    <Compile Include="World\SatelliteTileCenter.cs" />
     <Compile Include="World\WorldGenStep_Moons.cs" />
     <Compile Include="World\WorldObjectChild_Satellite.cs" />
     <Compile Include="Satellite\Gamecomp_SatellitesInOrbit.cs" />

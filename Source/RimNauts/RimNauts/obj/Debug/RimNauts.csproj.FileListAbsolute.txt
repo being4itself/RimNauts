@@ -6,3 +6,7 @@ B:\SteamLibrary\steamapps\common\RimWorld\Mods\RimNauts\Assemblies\RimNauts.dll
 S:\SteamLibrary\steamapps\common\RimWorld\Mods\RimNauts\Assemblies\RimNauts.dll
 S:\SteamLibrary\steamapps\common\RimWorld\Mods\RimNauts\Source\RimNauts\RimNauts\obj\Debug\RimNauts.csprojAssemblyReference.cache
 S:\SteamLibrary\steamapps\common\RimWorld\Mods\RimNauts\Source\RimNauts\RimNauts\obj\Debug\RimNauts.dll
+D:\Steam\steamapps\common\RimWorld\Mods\RimNauts\Source\RimNauts\RimNauts\obj\Debug\RimNauts.csprojAssemblyReference.cache
+D:\Steam\steamapps\common\RimWorld\Mods\RimNauts\Source\RimNauts\RimNauts\obj\Debug\RimNauts.csproj.CoreCompileInputs.cache
+D:\Steam\steamapps\common\RimWorld\Mods\RimNauts\Source\RimNauts\RimNauts\obj\Debug\RimNauts.dll
+D:\Steam\steamapps\common\RimWorld\Mods\RimNauts\Assemblies\RimNauts.dll
