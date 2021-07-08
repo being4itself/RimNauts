@@ -89,7 +89,6 @@
     <Compile Include="World\WorldRendererUtility_HiddenBehindTerrainNow.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="World\World_AddNaturalRockTypes.cs" />
-    <Compile Include="Animals\DeathActionWorker_Thermite.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

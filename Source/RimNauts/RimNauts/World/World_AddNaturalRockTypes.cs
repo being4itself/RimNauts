@@ -8,7 +8,7 @@ using RimWorld.Planet;
 using RimWorld;
 using Verse;
 
-namespace RimNauts
+namespace ThatsAMoon
 {
     [HarmonyPatch(typeof(World), "NaturalRockTypesIn")]
     internal static class World_AddNaturalRockTypes

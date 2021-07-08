@@ -3,6 +3,3 @@ B:\SteamLibrary\steamapps\common\RimWorld\Mods\BlankMod - Copy\Source\RimNauts\R
 B:\SteamLibrary\steamapps\common\RimWorld\Mods\BlankMod - Copy\Source\RimNauts\RimNauts\obj\Debug\RimNauts.csproj.CoreCompileInputs.cache
 B:\SteamLibrary\steamapps\common\RimWorld\Mods\BlankMod - Copy\Source\RimNauts\RimNauts\obj\Debug\RimNauts.dll
 B:\SteamLibrary\steamapps\common\RimWorld\Mods\RimNauts\Assemblies\RimNauts.dll
-S:\SteamLibrary\steamapps\common\RimWorld\Mods\RimNauts\Assemblies\RimNauts.dll
-S:\SteamLibrary\steamapps\common\RimWorld\Mods\RimNauts\Source\RimNauts\RimNauts\obj\Debug\RimNauts.csprojAssemblyReference.cache
-S:\SteamLibrary\steamapps\common\RimWorld\Mods\RimNauts\Source\RimNauts\RimNauts\obj\Debug\RimNauts.dll
