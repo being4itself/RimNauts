@@ -2,11 +2,12 @@
 <ModMetaData>
 	<name>RimNauts</name>
 	<packageId>RadZerp.neoRimNauts</packageId>
-	<author>Nolabritt, RadZerp, Sophist88</author>
+	<author>Nolabritt, sindre0830, Sophist88</author>
 	<supportedVersions>
 		<li>1.1</li>
 		<li>1.2</li>
 		<li>1.3</li>
+		<li>1.4</li>
 	</supportedVersions>
 	<description>
 This mod adds Near-Earth Objects like moons, asteroids and space debris. Everything is visible and animated as an orbit on the world map mode. The moon is a playable biome that you need to discover and travel to using a rocket.
