@@ -29,14 +29,13 @@ namespace RimNauts
 		public override void Generate(Map map, GenStepParams parms)
 		{
 
-			if (Prefs.DevMode) Log.Message("start satellite gen");
 			int radius = (map.Size.x / 2) - 3;
 			for (int ind = 1; ind <= Rand.RangeInclusive(4, 10); ind++)
 			{
 				int dz = (int)((Rand.Value - 0.5) * map.Size.z);
 				for (int dx = 1; dx <= map.Size.x - 1; dx++)
 				{
-					int set = (int)(-22f * Math.Sin((3.14f / map.Size.x) * dx - 0) + map.Center.z+dz*0.75); Log.Message("y= " + set.ToString());
+					int set = (int)(-22f * Math.Sin((3.14f / map.Size.x) * dx - 0) + map.Center.z+dz*0.75);
 					wideBrush(new IntVec3(dx, 0, set), "lunarMaria", map, Rand.RangeInclusive(1, 4));
 				}
 			}
@@ -44,7 +43,6 @@ namespace RimNauts
 			for (int ind = 1; ind <= Rand.RangeInclusive(1, 1); ind++)
 			{
 				IntVec3 location = new IntVec3(map.Center.x + (int)((Rand.Value - 0.5) * map.Size.x*0.75f ), map.Center.y + (int)((Rand.Value - 0.5) * map.Size.y * 0.75f), map.Center.z + (int)((Rand.Value - 0.5) * map.Size.z * 0.75f));
-				Log.Message(location.x.ToString() + "," + location.y.ToString() + "," + location.z.ToString());
                 genCrater(location, new IntVec3(Rand.RangeInclusive(20, 30), 0, Rand.RangeInclusive(20, 30)), map);
 			}
 			for (int ind = 1; ind <= Rand.RangeInclusive(1, 1); ind++)
@@ -61,16 +59,11 @@ namespace RimNauts
 			{
 				if (((intVec.x - map.Center.x) * (intVec.x - map.Center.x)) + ((intVec.z - map.Center.z) * (intVec.z - map.Center.z)) >= (radius * radius))
 				{
-					if (Prefs.DevMode) Log.Message("start carve");
 					Thing thing = GenSpawn.Spawn(ThingDefOf.Sandstone, intVec, map, WipeMode.Vanish);
 					thing.Destroy(DestroyMode.Vanish);
 					if (DefDatabase<TerrainDef>.AllDefs.Contains<TerrainDef>(TerrainDef.Named("OpenSpace")))
 					{
 						map.terrainGrid.SetTerrain(intVec, DefDatabase<TerrainDef>.GetNamed("OpenSpace"));
-					}
-					else
-					{
-						Log.Error("No Space found");
 					}
 				}
                 if (map.fertilityGrid.FertilityAt(intVec) > 0f)
@@ -125,7 +118,6 @@ namespace RimNauts
 			int kpos=0;
 			for (int dx = (-size.x); dx <= (size.x); dx++)
             {
-				Log.ResetMessageCount();
 				for (int dz = (-size.z ); dz <= (size.z ); dz++)
 				{
 					 Xpos = position.x + dx;
